@@ -1,0 +1,63 @@
+@page {
+    size: A5;
+    margin: 10mm;
+}
+.text-main {
+    color: #FF6A00 !important;
+}
+
+.fs-14 {
+    font-size: 14px !important;
+}
+
+.bg-main {
+    background-color: #FF6A00 !important;
+  }
+
+.text-primary {
+    color: #007bff !important; /* Primary color */
+}
+
+.text-success {
+    color: #28a745 !important; /* Success color */
+}
+
+.text-info {
+    color: #17a2b8 !important; /* Info color */
+}
+
+.text-warning {
+    color: #ffc107 !important; /* Warning color */
+}
+
+.text-danger {
+    color: #dc3545 !important; /* Danger color */
+}
+
+
+
+.truncate-overflow-1 {
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden !important;
+}
+.truncate-overflow-2 {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden  !important;
+}
+.truncate-overflow-3 {
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden  !important;
+}
+
+.product-name {
+    max-width: 450px; /* Adjust this value based on the desired width */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

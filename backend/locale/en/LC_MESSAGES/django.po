@@ -1,0 +1,1124 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-28 01:13-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: administration/apps.py:8
+msgid "Administration"
+msgstr "Administration"
+
+#: administration/models.py:11 administration/models.py:43 order/models.py:125
+#: order/models.py:133 order/models.py:166 order/models.py:229
+#: products/models.py:275
+msgid "Order item"
+msgstr "Order item"
+
+#: administration/models.py:12
+msgid "Reason"
+msgstr "Reason"
+
+#: administration/models.py:13 administration/models.py:65 order/models.py:78
+msgid "Status"
+msgstr "Status"
+
+#: administration/models.py:14 administration/models.py:30
+#: administration/models.py:66 administration/models.py:80 order/models.py:15
+#: products/models.py:148 products/models.py:274 users/models.py:63
+#: users/models.py:86
+msgid "Created"
+msgstr "Created"
+
+#: administration/models.py:17
+#, python-format
+msgid "Refund request for %(order_item)s - Status: %(status)s"
+msgstr "Refund request for %(order_item)s - Status: %(status)s"
+
+#: administration/models.py:23
+msgid "Refund request"
+msgstr "Refund request"
+
+#: administration/models.py:24
+msgid "Refund requests"
+msgstr "Refund requests"
+
+#: administration/models.py:27 administration/models.py:62
+#: administration/models.py:77 products/models.py:271 users/models.py:72
+#: users/models.py:78 users/models.py:145 users/models.py:169
+msgid "User"
+msgstr "User"
+
+#: administration/models.py:28 products/models.py:272
+msgid "Rating"
+msgstr "Rating"
+
+#: administration/models.py:29 products/models.py:273
+msgid "Comment"
+msgstr "Comment"
+
+#: administration/models.py:33
+#, python-format
+msgid "Review by %(user)s - Rating: %(rating)s"
+msgstr "Review by %(user)s - Rating: %(rating)s"
+
+#: administration/models.py:38
+#, fuzzy
+#| msgid "Review"
+msgid "App review"
+msgstr "App review"
+
+#: administration/models.py:39
+#, fuzzy
+#| msgid "Reviews"
+msgid "App reviews"
+msgstr "App reviews"
+
+#: administration/models.py:42 products/models.py:11
+msgid "Error"
+msgstr "Error"
+
+#: administration/models.py:44
+msgid "Notes"
+msgstr "Notes"
+
+#: administration/models.py:52
+msgid "Label create fail"
+msgstr "Label create fail"
+
+#: administration/models.py:53
+msgid "Label create fails"
+msgstr "Label create fails"
+
+#: administration/models.py:63 administration/models.py:150
+#: products/models.py:276
+msgid "Subject"
+msgstr "Subject"
+
+#: administration/models.py:64 administration/models.py:79
+msgid "Message"
+msgstr "Message"
+
+#: administration/models.py:67
+msgid "Resolved"
+msgstr "Resolved"
+
+#: administration/models.py:70
+msgid "Support case"
+msgstr "Support case"
+
+#: administration/models.py:71
+msgid "Support cases"
+msgstr "Support cases"
+
+#: administration/models.py:78
+msgid "Case"
+msgstr "Case"
+
+#: administration/models.py:83
+msgid "Admin"
+msgstr "Admin"
+
+#: administration/models.py:83
+msgid "Client"
+msgstr "Client"
+
+#: administration/models.py:107
+msgid "Support case message"
+msgstr "Support case message"
+
+#: administration/models.py:108
+msgid "Support case messages"
+msgstr "Support case messages"
+
+#: administration/models.py:116 administration/models.py:149
+#, fuzzy
+#| msgid "File type"
+msgid "User type"
+msgstr "User type"
+
+#: administration/models.py:117
+msgid "Title"
+msgstr "Title"
+
+#: administration/models.py:122 administration/models.py:157
+#: products/models.py:28 products/models.py:109 products/models.py:195
+msgid "Image"
+msgstr "Image"
+
+#: administration/models.py:143
+#, fuzzy
+#| msgid "Category"
+msgid "Help category"
+msgstr "Help category"
+
+#: administration/models.py:144
+#, fuzzy
+#| msgid "Categories"
+msgid "Help categories"
+msgstr "Help categories"
+
+#: administration/models.py:148 products/models.py:54 products/models.py:71
+#: products/models.py:94
+msgid "Category"
+msgstr "Category"
+
+#: administration/models.py:151
+msgid "Text"
+msgstr "Text"
+
+#: administration/models.py:152
+#, fuzzy
+#| msgid "Description"
+msgid "Short description"
+msgstr "Short description"
+
+#: administration/models.py:176
+msgid "Help"
+msgstr "Help"
+
+#: administration/models.py:177
+msgid "Helps"
+msgstr "Helps"
+
+#: order/apps.py:8 order/models.py:43
+#, fuzzy
+#| msgid "Order item"
+msgid "Orders"
+msgstr "Orders"
+
+#: order/models.py:13 order/models.py:56 products/models.py:86
+msgid "UUID"
+msgstr "UUID"
+
+#: order/models.py:14
+msgid "Customer"
+msgstr "Customer"
+
+#: order/models.py:16 products/models.py:149 users/models.py:64
+#: users/models.py:87
+msgid "Updated"
+msgstr "Updated"
+
+#: order/models.py:18 order/models.py:76
+#, fuzzy
+#| msgid "Kilogram price"
+msgid "Total price"
+msgstr "Total price"
+
+#: order/models.py:19
+#, fuzzy
+#| msgid "Shipping"
+msgid "Total shipping"
+msgstr "Total shipping"
+
+#: order/models.py:20
+msgid "Total tax"
+msgstr "Total tax"
+
+#: order/models.py:21 order/models.py:159
+msgid "Total items"
+msgstr "Total items"
+
+#: order/models.py:23
+msgid "Card id"
+msgstr "Card id"
+
+#: order/models.py:24 users/models.py:173 users/models.py:243
+#, fuzzy
+#| msgid "File type"
+msgid "Card type"
+msgstr "Card type"
+
+#: order/models.py:25 users/models.py:172 users/models.py:242
+msgid "Card brand"
+msgstr "Card brand"
+
+#: order/models.py:26
+msgid "Card last 4 digits"
+msgstr "Card last 4 digits"
+
+#: order/models.py:27
+msgid "Square payment id"
+msgstr "Square payment id"
+
+#: order/models.py:29
+msgid "Destination - full name"
+msgstr "Destination - full name"
+
+#: order/models.py:30
+msgid "Destination - address line"
+msgstr "Destination - address line"
+
+#: order/models.py:31
+msgid "Destination - address line 2"
+msgstr "Destination - address line 2"
+
+#: order/models.py:32
+msgid "Destination - city"
+msgstr "Destination - city"
+
+#: order/models.py:33
+msgid "Destination - state"
+msgstr "Destination - state"
+
+#: order/models.py:34
+msgid "Destination - zip code"
+msgstr "Destination - zip code"
+
+#: order/models.py:35
+msgid "Destination - country"
+msgstr "Destination - country"
+
+#: order/models.py:36
+msgid "Destination - phone number"
+msgstr "Destination - phone number"
+
+#: order/models.py:42 order/models.py:69
+#, fuzzy
+#| msgid "Order item"
+msgid "Order"
+msgstr "Order"
+
+#: order/models.py:70 products/models.py:170 products/models.py:183
+#: products/models.py:198 products/models.py:222 products/models.py:245
+#: products/models.py:258 products/models.py:270
+msgid "Product"
+msgstr "Product"
+
+#: order/models.py:71 order/models.py:230 products/models.py:89
+#: users/models.py:117 users/models.py:122 users/models.py:158
+#: users/models.py:195 users/models.py:212 users/models.py:235
+msgid "Seller"
+msgstr "Seller"
+
+#: order/models.py:73
+#, fuzzy
+#| msgid "Sold quantity"
+msgid "Quantity"
+msgstr "Quantity"
+
+#: order/models.py:74 products/models.py:260
+msgid "Price"
+msgstr "Price"
+
+#: order/models.py:80 order/models.py:168
+msgid "Courier id"
+msgstr "Courier id"
+
+#: order/models.py:81 order/models.py:169 users/models.py:218
+#, fuzzy
+#| msgid "Username"
+msgid "Courier name"
+msgstr "Courier name"
+
+#: order/models.py:82
+#, fuzzy
+#| msgid "File type"
+msgid "Courier type"
+msgstr "Courier type"
+
+#: order/models.py:84
+#, fuzzy
+#| msgid "Shipping"
+msgid "Shipping total"
+msgstr "Shipping total"
+
+#: order/models.py:88
+msgid "Tax rate"
+msgstr "Tax rate"
+
+#: order/models.py:91
+msgid "Total of taxes"
+msgstr "Total of taxes"
+
+#: order/models.py:95
+msgid "App Fee (10%)"
+msgstr "App Fee (10%)"
+
+#: order/models.py:98 order/models.py:232
+msgid "Without app fee"
+msgstr "Without app fee"
+
+#: order/models.py:100 products/models.py:247
+msgid "Variations"
+msgstr "Variations"
+
+#: order/models.py:101
+#, fuzzy
+#| msgid "Product"
+msgid "Product name"
+msgstr "Product name"
+
+#: order/models.py:103
+msgid "Is bulk"
+msgstr "Is bulk"
+
+#: order/models.py:105
+#, fuzzy
+#| msgid "Shipping address"
+msgid "Origin - address 1"
+msgstr "Origin - address 1"
+
+#: order/models.py:106
+#, fuzzy
+#| msgid "Shipping address"
+msgid "Origin - address 2"
+msgstr "Origin - address 2"
+
+#: order/models.py:107
+msgid "Origin - city"
+msgstr "Origin - city"
+
+#: order/models.py:108
+msgid "Origin - state"
+msgstr "Origin - state"
+
+#: order/models.py:109
+msgid "Origin - zip code"
+msgstr "Origin - zip code"
+
+#: order/models.py:110
+msgid "Origin - country"
+msgstr "Origin - country"
+
+#: order/models.py:112
+#, fuzzy
+#| msgid "Order item"
+msgid "Order notes"
+msgstr "Order notes"
+
+#: order/models.py:114
+msgid "Released time"
+msgstr "Released time"
+
+#: order/models.py:115
+#, fuzzy
+#| msgid "Minimum delivery time"
+msgid "Delivered time"
+msgstr "Delivered time"
+
+#: order/models.py:117 order/models.py:144
+msgid "Is label created"
+msgstr "Is label created"
+
+#: order/models.py:118 order/models.py:170
+msgid "Label state"
+msgstr "Label state"
+
+#: order/models.py:120
+msgid "Is closed"
+msgstr "Is closed"
+
+#: order/models.py:126
+#, fuzzy
+#| msgid "Order item"
+msgid "Order items"
+msgstr "Order items"
+
+#: order/models.py:134 order/models.py:184
+msgid "Before state"
+msgstr "Before state"
+
+#: order/models.py:135
+msgid "Finished state"
+msgstr "Finished state"
+
+#: order/models.py:136
+msgid "Changed time"
+msgstr "Changed time"
+
+#: order/models.py:139
+msgid "Order item status change history"
+msgstr "Order item status change history"
+
+#: order/models.py:140
+msgid "Order item status change histories"
+msgstr "Order item status change histories"
+
+#: order/models.py:147
+msgid "Length"
+msgstr "Length"
+
+#: order/models.py:150
+msgid "Width"
+msgstr "Width"
+
+#: order/models.py:153
+#, fuzzy
+#| msgid "Weight unit"
+msgid "Weight"
+msgstr "Weight"
+
+#: order/models.py:156
+msgid "Height"
+msgstr "Height"
+
+#: order/models.py:157 products/models.py:133
+msgid "Dimension unit"
+msgstr "Dimension unit"
+
+#: order/models.py:158 products/models.py:134
+msgid "Weight unit"
+msgstr "Weight unit"
+
+#: order/models.py:162 order/models.py:176
+msgid "Box"
+msgstr "Box"
+
+#: order/models.py:163
+msgid "Boxes"
+msgstr "Boxes"
+
+#: order/models.py:167
+msgid "Shipment id"
+msgstr "Shipment id"
+
+#: order/models.py:171
+#, fuzzy
+#| msgid "Shipping address"
+msgid "Shipping document"
+msgstr "Shipping document"
+
+#: order/models.py:172
+msgid "Document format"
+msgstr "Document format"
+
+#: order/models.py:173
+msgid "Document size"
+msgstr "Document size"
+
+#: order/models.py:174
+msgid "Tracking page url"
+msgstr "Tracking page url"
+
+#: order/models.py:175
+msgid "Tracking"
+msgstr "Tracking"
+
+#: order/models.py:179 order/models.py:183
+msgid "Label"
+msgstr "Label"
+
+#: order/models.py:180
+msgid "Labels"
+msgstr "Labels"
+
+#: order/models.py:185
+msgid "End state"
+msgstr "End state"
+
+#: order/models.py:186
+msgid "Change time"
+msgstr "Change time"
+
+#: order/models.py:189
+msgid "Label history"
+msgstr "Label history"
+
+#: order/models.py:190
+#, fuzzy
+#| msgid "Categories"
+msgid "Label histories"
+msgstr "Label histories"
+
+#: order/models.py:193 products/models.py:15 products/models.py:70
+#: products/models.py:84 products/models.py:185 products/models.py:223
+#: products/models.py:234 products/models.py:291
+msgid "Name"
+msgstr "Name"
+
+#: order/models.py:194 users/models.py:154
+msgid "Address"
+msgstr "Address"
+
+#: order/models.py:195 users/models.py:91 users/models.py:132
+#: users/models.py:148
+msgid "City"
+msgstr "City"
+
+#: order/models.py:196 users/models.py:92 users/models.py:133
+#: users/models.py:149 users/models.py:247
+msgid "State"
+msgstr "State"
+
+#: order/models.py:197 products/models.py:278 users/models.py:94
+#: users/models.py:151
+msgid "Country"
+msgstr "Country"
+
+#: order/models.py:198 users/models.py:93 users/models.py:134
+#: users/models.py:150
+msgid "Zip code"
+msgstr "Zip code"
+
+#: order/models.py:199 users/models.py:83
+msgid "Phone number"
+msgstr "Phone number"
+
+#: order/models.py:200
+msgid "Latitude"
+msgstr "Latitude"
+
+#: order/models.py:201
+msgid "Longtitude"
+msgstr "Longtitude"
+
+#: order/models.py:202
+#, fuzzy
+#| msgid "Username"
+msgid "Person name"
+msgstr "Person name"
+
+#: order/models.py:209
+msgid "Wholestore"
+msgstr "Wholestore"
+
+#: order/models.py:210
+msgid "Wholestores"
+msgstr "Wholestores"
+
+#: order/models.py:215
+#, fuzzy
+#| msgid "Origin countries: (only country codes with ',' split)"
+msgid "Origin states: (only state codes with ',' split)"
+msgstr "Origin states: (only state codes with ',' split)"
+
+#: order/models.py:216
+#, fuzzy
+#| msgid "Delivery countries: (only country codes with ',' split)"
+msgid "Delivery states: (only state codes with ',' split)"
+msgstr "Delivery states: (only state codes with ',' split)"
+
+#: order/models.py:219
+msgid "Tax %"
+msgstr "Tax %"
+
+#: order/models.py:225
+msgid "Tax"
+msgstr "Tax"
+
+#: order/models.py:226
+msgid "US States Taxes"
+msgstr "US States Taxes"
+
+#: order/models.py:238
+msgid "App Fee Claim"
+msgstr "App Fee Claim"
+
+#: order/models.py:239
+msgid "App Fee Claims"
+msgstr "App Fee Claims"
+
+#: products/apps.py:8 products/models.py:171
+msgid "Products"
+msgstr "Products"
+
+#: products/models.py:8
+msgid "Pending"
+msgstr "Pending"
+
+#: products/models.py:9
+msgid "Processing..."
+msgstr "Processing..."
+
+#: products/models.py:10
+msgid "Success"
+msgstr "Success"
+
+#: products/models.py:22
+msgid "Parent"
+msgstr "Parent"
+
+#: products/models.py:30 products/models.py:85
+msgid "Slug"
+msgstr "Slug"
+
+#: products/models.py:36 products/models.py:115 products/models.py:205
+msgid "Status of image"
+msgstr "Status of image"
+
+#: products/models.py:55 products/models.py:307
+msgid "Categories"
+msgstr "Categories"
+
+#: products/models.py:65
+msgid "Select"
+msgstr "Select"
+
+#: products/models.py:66
+msgid "Multiple select"
+msgstr "Multiple select"
+
+#: products/models.py:67
+msgid "Boolean"
+msgstr "Boolean"
+
+#: products/models.py:73
+msgid "Default values"
+msgstr "Default values"
+
+#: products/models.py:76 products/models.py:182
+msgid "Category option"
+msgstr "Category option"
+
+#: products/models.py:77
+msgid "Category options"
+msgstr "Category options"
+
+#: products/models.py:88 users/models.py:200 users/models.py:219
+msgid "Description"
+msgstr "Description"
+
+#: products/models.py:90
+msgid "Unit of measuring"
+msgstr "Unit of measuring"
+
+#: products/models.py:91
+msgid "Country of origin"
+msgstr "Country of origin"
+
+#: products/models.py:92 products/models.py:248
+msgid "In stock"
+msgstr "In stock"
+
+#: products/models.py:93
+msgid "Limited stock"
+msgstr "Limited stock"
+
+#: products/models.py:95 products/models.py:259
+msgid "Minimum quantity"
+msgstr "Minimum quantity"
+
+#: products/models.py:97
+msgid "Active"
+msgstr "Active"
+
+#: products/models.py:98
+msgid "Minimum price"
+msgstr "Minimum price"
+
+#: products/models.py:99
+msgid "Maximum price"
+msgstr "Maximum price"
+
+#: products/models.py:101
+msgid "Sold quantity"
+msgstr "Sold quantity"
+
+#: products/models.py:102
+msgid "Last sold at"
+msgstr "Last sold at"
+
+#: products/models.py:103
+msgid "Bulk"
+msgstr "Bulk"
+
+#: products/models.py:118
+msgid "Shipping address"
+msgstr "Shipping address"
+
+#: products/models.py:122
+msgid "Item length"
+msgstr "Item length"
+
+#: products/models.py:125 products/models.py:131
+msgid "Item weight"
+msgstr "Item weight"
+
+#: products/models.py:128
+msgid "Item width"
+msgstr "Item width"
+
+#: products/models.py:138
+msgid "One box length"
+msgstr "One box length"
+
+#: products/models.py:141
+msgid "One box height"
+msgstr "One box height"
+
+#: products/models.py:144
+msgid "One box width"
+msgstr "One box width"
+
+#: products/models.py:147
+msgid "One box weight"
+msgstr "One box weight"
+
+#: products/models.py:184
+msgid "Value"
+msgstr "Value"
+
+#: products/models.py:188
+msgid "Product option"
+msgstr "Product option"
+
+#: products/models.py:189
+msgid "Product options"
+msgstr "Product options"
+
+#: products/models.py:196
+msgid "Video"
+msgstr "Video"
+
+#: products/models.py:199
+msgid "File type"
+msgstr "File type"
+
+#: products/models.py:200
+msgid "File"
+msgstr "File"
+
+#: products/models.py:233
+msgid "Variation category"
+msgstr "Variation category"
+
+#: products/models.py:238
+msgid "Product variation"
+msgstr "Product variation"
+
+#: products/models.py:239
+msgid "Product variations"
+msgstr "Product variations"
+
+#: products/models.py:254
+msgid "Variation quantity"
+msgstr "Variation quantity"
+
+#: products/models.py:255
+msgid "Variation quantities"
+msgstr "Variation quantities"
+
+#: products/models.py:261
+msgid "Lead time min:"
+msgstr "Lead time min:"
+
+#: products/models.py:262
+msgid "Lead time max:"
+msgstr "Lead time max:"
+
+#: products/models.py:265
+msgid "Bulk purchase policy"
+msgstr "Bulk purchase policy"
+
+#: products/models.py:266
+msgid "Bulk purchase policies"
+msgstr "Bulk purchase policies"
+
+#: products/models.py:277
+msgid "Username"
+msgstr "Username"
+
+#: products/models.py:281
+msgid "Review"
+msgstr "Review"
+
+#: products/models.py:282
+msgid "Reviews"
+msgstr "Reviews"
+
+#: products/models.py:292
+msgid "Origin countries: (only country codes with ',' split)"
+msgstr "Origin countries: (only country codes with ',' split)"
+
+#: products/models.py:293
+msgid "Delivery countries: (only country codes with ',' split)"
+msgstr "Delivery countries: (only country codes with ',' split)"
+
+#: products/models.py:295
+msgid "Minimum delivery time"
+msgstr "Minimum delivery time"
+
+#: products/models.py:296
+msgid "Maximum delivery time"
+msgstr "Maximum delivery time"
+
+#: products/models.py:298
+msgid "Meter cube price"
+msgstr "Meter cube price"
+
+#: products/models.py:299
+msgid "Kilogram price"
+msgstr "Kilogram price"
+
+#: products/models.py:304
+msgid "Max kilogram"
+msgstr "Max kilogram"
+
+#: products/models.py:305
+msgid "Max meter cube"
+msgstr "Max meter cube"
+
+#: products/models.py:313
+msgid "Shipping"
+msgstr "Shipping"
+
+#: products/models.py:314
+msgid "YuuSell Shippings"
+msgstr "YuuSell Shippings"
+
+#: recommendation/apps.py:8
+msgid "Recommendation"
+msgstr "Recommendation"
+
+#: users/apps.py:8 users/models.py:73
+#, fuzzy
+#| msgid "User"
+msgid "Users"
+msgstr "Users"
+
+#: users/models.py:44 users/models.py:123
+msgid "First name"
+msgstr "First name"
+
+#: users/models.py:45 users/models.py:124
+msgid "Last name"
+msgstr "Last name"
+
+#: users/models.py:49
+msgid "Email"
+msgstr "Email"
+
+#: users/models.py:52
+#, fuzzy
+#| msgid "Active"
+msgid "Is active"
+msgstr "Is active"
+
+#: users/models.py:53
+msgid "Is staff"
+msgstr "Is staff"
+
+#: users/models.py:54
+msgid "Is superuser"
+msgstr "Is superuser"
+
+#: users/models.py:55
+#, fuzzy
+#| msgid "Seller"
+msgid "Is seller"
+msgstr "Is seller"
+
+#: users/models.py:56
+msgid "Is verified seller"
+msgstr "Is verified seller"
+
+#: users/models.py:66
+msgid "Square customer id"
+msgstr "Square customer id"
+
+#: users/models.py:79
+msgid "Store name"
+msgstr "Store name"
+
+#: users/models.py:80
+msgid "Business name"
+msgstr "Business name"
+
+#: users/models.py:81
+#, fuzzy
+#| msgid "File type"
+msgid "Business type"
+msgstr "Business type"
+
+#: users/models.py:82
+msgid "Custom business type"
+msgstr "Custom business type"
+
+#: users/models.py:84
+msgid "Is phone verified"
+msgstr "Is phone verified"
+
+#: users/models.py:85
+msgid "Is agreement accepted"
+msgstr "Is agreement accepted"
+
+#: users/models.py:89 users/models.py:130 users/models.py:146
+msgid "Address line 1"
+msgstr "Address line 1"
+
+#: users/models.py:90 users/models.py:131 users/models.py:147
+msgid "Address line 2"
+msgstr "Address line 2"
+
+#: users/models.py:96
+msgid "Available balance"
+msgstr "Available balance"
+
+#: users/models.py:97
+msgid "On hold balance"
+msgstr "On hold balance"
+
+#: users/models.py:118
+#, fuzzy
+#| msgid "Seller"
+msgid "Sellers"
+msgstr "Sellers"
+
+#: users/models.py:125
+msgid "Citizenship"
+msgstr "Citizenship"
+
+#: users/models.py:126
+#, fuzzy
+#| msgid "Country"
+msgid "Birth country"
+msgstr "Birth country"
+
+#: users/models.py:127
+msgid "Birth date"
+msgstr "Birth date"
+
+#: users/models.py:128
+msgid "Residential country"
+msgstr "Residential country"
+
+#: users/models.py:129
+msgid "Contact person role"
+msgstr "Contact person role"
+
+#: users/models.py:140
+msgid "Contact person"
+msgstr "Contact person"
+
+#: users/models.py:141
+msgid "Contact people"
+msgstr "Contact people"
+
+#: users/models.py:155
+msgid "Addresses"
+msgstr "Addresses"
+
+#: users/models.py:159
+msgid "Document type"
+msgstr "Document type"
+
+#: users/models.py:160 users/models.py:164
+#, fuzzy
+#| msgid "Comment"
+msgid "Document"
+msgstr "Document"
+
+#: users/models.py:161
+#, fuzzy
+#| msgid "Updated"
+msgid "Upload date"
+msgstr "Upload date"
+
+#: users/models.py:165
+#, fuzzy
+#| msgid "Comment"
+msgid "Documents"
+msgstr "Documents"
+
+#: users/models.py:170
+msgid "Square id"
+msgstr "Square id"
+
+#: users/models.py:171 users/models.py:241
+msgid "Bin number"
+msgstr "Bin number"
+
+#: users/models.py:174 users/models.py:244
+msgid "Cardholder name"
+msgstr "Cardholder name"
+
+#: users/models.py:175 users/models.py:245
+msgid "Last 4 digits"
+msgstr "Last 4 digits"
+
+#: users/models.py:178
+msgid "Card"
+msgstr "Card"
+
+#: users/models.py:179
+msgid "Cards"
+msgstr "Cards"
+
+#: users/models.py:196 users/models.py:216
+msgid "Transaction type"
+msgstr "Transaction type"
+
+#: users/models.py:197
+#, fuzzy
+#| msgid "Country"
+msgid "Amount"
+msgstr "Amount"
+
+#: users/models.py:198 users/models.py:215 users/models.py:237
+msgid "Timestamp"
+msgstr "Timestamp"
+
+#: users/models.py:199 users/models.py:240
+msgid "Reference ID"
+msgstr "Reference ID"
+
+#: users/models.py:201
+msgid "Closing balance"
+msgstr "Closing balance"
+
+#: users/models.py:202
+#, fuzzy
+#| msgid "Variations"
+msgid "Variation"
+msgstr "Variation"
+
+#: users/models.py:208
+msgid "Seller transaction"
+msgstr "Seller transaction"
+
+#: users/models.py:209
+msgid "Seller transactions"
+msgstr "Seller transactions"
+
+#: users/models.py:213
+#, fuzzy
+#| msgid "Order item"
+msgid "Order ID"
+msgstr "Order ID"
+
+#: users/models.py:214 users/models.py:236
+msgid "Amount ($)"
+msgstr "Amount ($)"
+
+#: users/models.py:217
+msgid "Courier ID"
+msgstr "Courier ID"
+
+#: users/models.py:225
+#, fuzzy
+#| msgid "Shipping address"
+msgid "Shipping transaction"
+msgstr "Shipping transaction"
+
+#: users/models.py:226
+#, fuzzy
+#| msgid "Shipping address"
+msgid "Shipping transactions"
+msgstr "Shipping transactions"
+
+#: users/models.py:238
+msgid "Fee amount ($)"
+msgstr "Fee amount ($)"
+
+#: users/models.py:250
+msgid "Withdraw request"
+msgstr "Withdraw request"
+
+#: users/models.py:251
+msgid "Withdraw requests"
+msgstr "Withdraw requests"

@@ -1,0 +1,28 @@
+.interactive-sidebar-list {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 0px;
+}
+.interactive-sidebar-list div {
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: all 150ms ease-in-out;
+    color: #6C757D;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+
+
+.interactive-sidebar-list div:hover, .interactive-sidebar-list div.active {
+    background-color: #E6E6E6;
+    /* color: #FF6A00; */
+    font-weight: 500;
+    color: black;
+}
+
+.interactive-sidebar-list div svg {
+    margin-right: 10px;
+}

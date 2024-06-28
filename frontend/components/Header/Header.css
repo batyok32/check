@@ -1,0 +1,11 @@
+
+select.noarrow {
+    background-image: none;
+}
+
+
+.main-drop .dropdown-item.active, .main-drop .dropdown-item:active {
+    color: var(--bs-dropdown-link-active-color) !important;
+    text-decoration: none;
+    background-color: #FF6A00;
+}

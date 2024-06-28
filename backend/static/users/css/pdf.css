@@ -1,0 +1,31 @@
+.text-main {
+    color: #FF6A00 !important;
+}
+
+.fs-14 {
+    font-size: 14px !important;
+}
+
+.bg-main {
+    background-color: #FF6A00 !important;
+  }
+
+.text-primary {
+    color: #007bff !important; /* Primary color */
+}
+
+.text-success {
+    color: #28a745 !important; /* Success color */
+}
+
+.text-info {
+    color: #17a2b8 !important; /* Info color */
+}
+
+.text-warning {
+    color: #ffc107 !important; /* Warning color */
+}
+
+.text-danger {
+    color: #dc3545 !important; /* Danger color */
+}

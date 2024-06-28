@@ -1,0 +1,38 @@
+{
+    "Header": {
+        "sell": "出售",
+        "helpAndContact": "帮助与联系",
+        "chooseLanguage": "选择语言",
+        "account": "账户",
+        "login": "登录",
+        "register": "注册",
+        "orders": "订单",
+        "wishlist": "愿望清单",
+        "cart": "购物车",
+        "seller": "卖家",
+        "menu": "菜单",
+        "english": "英语",
+        "russian": "俄语",
+        "turkmen": "土库曼语",
+        "chinese": "中文"
+    },
+    "AddressComponent": {
+        "address": "地址",
+        "deliverTo": "送货至",
+        "enterYourDeliveryAddress": "输入您的送货地址",
+        "deliveryAddress": "送货地址",
+        "chosen": "已选择",
+        "delete": "删除",
+        "manageAddressBook": "管理地址簿",
+        "loginRequired": "(需要登录)",
+        "addNewAddress": "添加新地址"
+    },
+    "HeaderSearch": {
+        "all": "全部",
+        "searchPlaceholder": "搜索 YuuSell",
+        "writeSomething": "请写点什么。"
+    },
+    "categories": "分类",
+    "log_required": "需要登录",
+    "logged_in": "已登录"
+}

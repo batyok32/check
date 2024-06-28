@@ -1,0 +1,1149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-13 22:27+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: administration/apps.py:8
+msgid "Administration"
+msgstr "Администрация"
+
+#: administration/models.py:11 administration/models.py:43 order/models.py:142
+#: order/models.py:150 order/models.py:183 order/models.py:246
+#: order/models.py:270 products/models.py:292
+msgid "Order item"
+msgstr "Товар в заказе"
+
+#: administration/models.py:12
+msgid "Reason"
+msgstr "Причина"
+
+#: administration/models.py:13 administration/models.py:66 order/models.py:79
+msgid "Status"
+msgstr "Статус"
+
+#: administration/models.py:14 administration/models.py:30
+#: administration/models.py:67 administration/models.py:88 order/models.py:16
+#: products/models.py:148 products/models.py:291 users/models.py:63
+#: users/models.py:86
+msgid "Created"
+msgstr "Создано"
+
+#: administration/models.py:17
+#, python-format
+msgid "Refund request for %(order_item)s - Status: %(status)s"
+msgstr "Запрос на возврат для %(order_item)s - Статус: %(status)s"
+
+#: administration/models.py:23
+msgid "Refund request"
+msgstr "Запрос на возврат"
+
+#: administration/models.py:24
+msgid "Refund requests"
+msgstr "Запросы на возврат"
+
+#: administration/models.py:27 administration/models.py:62
+#: administration/models.py:84 products/models.py:288 users/models.py:72
+#: users/models.py:78 users/models.py:145 users/models.py:172
+msgid "User"
+msgstr "Пользователь"
+
+#: administration/models.py:28 products/models.py:289
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: administration/models.py:29 products/models.py:290
+msgid "Comment"
+msgstr "Комментарий"
+
+#: administration/models.py:33
+#, python-format
+msgid "Review by %(user)s - Rating: %(rating)s"
+msgstr "Отзыв от %(user)s - Рейтинг: %(rating)s"
+
+#: administration/models.py:38
+msgid "App review"
+msgstr "Отзыв о приложении"
+
+#: administration/models.py:39
+msgid "App reviews"
+msgstr "Отзывы о приложениях"
+
+#: administration/models.py:42 products/models.py:11
+msgid "Error"
+msgstr "Ошибка"
+
+#: administration/models.py:44
+msgid "Notes"
+msgstr "Заметки"
+
+#: administration/models.py:52
+msgid "Label create fail"
+msgstr "Ошибка создания этикетки"
+
+#: administration/models.py:53
+msgid "Label create fails"
+msgstr "Ошибки создания этикеток"
+
+#: administration/models.py:63 administration/models.py:85 users/models.py:49
+msgid "Email"
+msgstr "Электронная почта"
+
+#: administration/models.py:64 administration/models.py:161
+#: products/models.py:293
+msgid "Subject"
+msgstr "Тема"
+
+#: administration/models.py:65 administration/models.py:87
+msgid "Message"
+msgstr "Сообщение"
+
+#: administration/models.py:68
+msgid "Resolved"
+msgstr "Решено"
+
+#: administration/models.py:71
+msgid "Support case"
+msgstr "Обращение в поддержку"
+
+#: administration/models.py:72
+msgid "Support cases"
+msgstr "Обращения в поддержку"
+
+#: administration/models.py:86
+msgid "Case"
+msgstr "Кейс"
+
+#: administration/models.py:91
+msgid "Admin"
+msgstr "Админ"
+
+#: administration/models.py:91
+msgid "Client"
+msgstr "Клиент"
+
+#: administration/models.py:118
+msgid "Support case message"
+msgstr "Сообщение обращения в поддержку"
+
+#: administration/models.py:119
+msgid "Support case messages"
+msgstr "Сообщения обращений в поддержку"
+
+#: administration/models.py:127 administration/models.py:160
+msgid "User type"
+msgstr "Тип пользователя"
+
+#: administration/models.py:128
+msgid "Title"
+msgstr "Название"
+
+#: administration/models.py:133 administration/models.py:168
+#: products/models.py:28 products/models.py:109 products/models.py:197
+msgid "Image"
+msgstr "Изображение"
+
+#: administration/models.py:154
+msgid "Help category"
+msgstr "Категория помощи"
+
+#: administration/models.py:155
+msgid "Help categories"
+msgstr "Категории помощи"
+
+#: administration/models.py:159 products/models.py:54 products/models.py:71
+#: products/models.py:94
+msgid "Category"
+msgstr "Категория"
+
+#: administration/models.py:162
+msgid "Text"
+msgstr "Текст"
+
+#: administration/models.py:163
+msgid "Short description"
+msgstr "Краткое описание"
+
+#: administration/models.py:187
+msgid "Help"
+msgstr "Помощь"
+
+#: administration/models.py:188
+msgid "Helps"
+msgstr "Помощи"
+
+#: order/apps.py:8 order/models.py:44
+msgid "Orders"
+msgstr "Заказы"
+
+#: order/models.py:14 order/models.py:57 products/models.py:86
+msgid "UUID"
+msgstr "UUID"
+
+#: order/models.py:15
+msgid "Customer"
+msgstr "Клиент"
+
+#: order/models.py:17 products/models.py:149 users/models.py:64
+#: users/models.py:87
+msgid "Updated"
+msgstr "Обновлено"
+
+#: order/models.py:19 order/models.py:77
+msgid "Total price"
+msgstr "Общая цена"
+
+#: order/models.py:20
+msgid "Total shipping"
+msgstr "Общая стоимость доставки"
+
+#: order/models.py:21
+msgid "Total tax"
+msgstr "Общий налог"
+
+#: order/models.py:22 order/models.py:176
+msgid "Total items"
+msgstr "Всего товаров"
+
+#: order/models.py:24
+msgid "Card id"
+msgstr "ID карты"
+
+#: order/models.py:25 users/models.py:176 users/models.py:248
+msgid "Card type"
+msgstr "Тип карты"
+
+#: order/models.py:26 users/models.py:175 users/models.py:247
+msgid "Card brand"
+msgstr "Бренд карты"
+
+#: order/models.py:27
+msgid "Card last 4 digits"
+msgstr "Последние 4 цифры карты"
+
+#: order/models.py:28
+msgid "Square payment id"
+msgstr "ID платежа Square"
+
+#: order/models.py:30
+msgid "Destination - full name"
+msgstr "Адресат - полное имя"
+
+#: order/models.py:31
+msgid "Destination - address line"
+msgstr "Адресат - адресная строка"
+
+#: order/models.py:32
+msgid "Destination - address line 2"
+msgstr "Адресат - адресная строка 2"
+
+#: order/models.py:33
+msgid "Destination - city"
+msgstr "Адресат - город"
+
+#: order/models.py:34
+msgid "Destination - state"
+msgstr "Адресат - штат"
+
+#: order/models.py:35
+msgid "Destination - zip code"
+msgstr "Адресат - почтовый код"
+
+#: order/models.py:36
+msgid "Destination - country"
+msgstr "Адресат - страна"
+
+#: order/models.py:37
+msgid "Destination - phone number"
+msgstr "Адресат - номер телефона"
+
+#: order/models.py:43 order/models.py:70
+msgid "Order"
+msgstr "Заказ"
+
+#: order/models.py:71 products/models.py:172 products/models.py:185
+#: products/models.py:200 products/models.py:224 products/models.py:247
+#: products/models.py:260 products/models.py:287
+msgid "Product"
+msgstr "Продукт"
+
+#: order/models.py:72 order/models.py:247 products/models.py:89
+#: users/models.py:117 users/models.py:122 users/models.py:161
+#: users/models.py:200 users/models.py:217 users/models.py:240
+msgid "Seller"
+msgstr "Продавец"
+
+#: order/models.py:74
+msgid "Quantity"
+msgstr "Количество"
+
+#: order/models.py:75 products/models.py:262
+msgid "Price"
+msgstr "Цена"
+
+#: order/models.py:81 order/models.py:185
+msgid "Courier id"
+msgstr "ID курьера"
+
+#: order/models.py:82 order/models.py:186 users/models.py:223
+msgid "Courier name"
+msgstr "Название курьера"
+
+#: order/models.py:83
+msgid "Courier type"
+msgstr "Тип курьера"
+
+#: order/models.py:85
+msgid "Shipping total"
+msgstr "Общая стоимость доставки"
+
+#: order/models.py:89
+msgid "Tax rate"
+msgstr "Налоговая ставка"
+
+#: order/models.py:92
+msgid "Total of taxes"
+msgstr "Общая сумма налогов"
+
+#: order/models.py:96
+msgid "App Fee (10%)"
+msgstr "Комиссия приложения (10%)"
+
+#: order/models.py:99
+msgid "Without app fee"
+msgstr "Без комиссии приложения"
+
+#: order/models.py:101 products/models.py:249
+msgid "Variations"
+msgstr "Вариации"
+
+#: order/models.py:102
+msgid "Product name"
+msgstr "Название продукта"
+
+#: order/models.py:104
+msgid "Is bulk"
+msgstr "Массовый"
+
+#: order/models.py:106
+msgid "Bought in containers"
+msgstr "Куплено в контейнерах"
+
+#: order/models.py:107
+msgid "Quantity inside container"
+msgstr "Количество внутри контейнера"
+
+#: order/models.py:111 products/models.py:269
+#, fuzzy
+#| msgid "Item length"
+msgid "Container length"
+msgstr "Длина товара"
+
+#: order/models.py:114 products/models.py:272
+#, fuzzy
+#| msgid "One box height"
+msgid "Container height"
+msgstr "Высота одной коробки"
+
+#: order/models.py:117 products/models.py:275
+#, fuzzy
+#| msgid "Item width"
+msgid "Container width"
+msgstr "Ширина товара"
+
+#: order/models.py:120 products/models.py:278
+#, fuzzy
+#| msgid "Item weight"
+msgid "Container weight"
+msgstr "Вес товара"
+
+#: order/models.py:122
+msgid "Origin - address 1"
+msgstr "Отправитель - адрес 1"
+
+#: order/models.py:123
+msgid "Origin - address 2"
+msgstr "Отправитель - адрес 2"
+
+#: order/models.py:124
+msgid "Origin - city"
+msgstr "Отправитель - город"
+
+#: order/models.py:125
+msgid "Origin - state"
+msgstr "Отправитель - штат"
+
+#: order/models.py:126
+msgid "Origin - zip code"
+msgstr "Отправитель - почтовый код"
+
+#: order/models.py:127
+msgid "Origin - country"
+msgstr "Отправитель - страна"
+
+#: order/models.py:129
+msgid "Order notes"
+msgstr "Заметки к заказу"
+
+#: order/models.py:131
+msgid "Released time"
+msgstr "Время отправки"
+
+#: order/models.py:132
+msgid "Delivered time"
+msgstr "Время доставки"
+
+#: order/models.py:134 order/models.py:161
+msgid "Is label created"
+msgstr "Создана ли этикетка"
+
+#: order/models.py:135 order/models.py:187
+msgid "Label state"
+msgstr "Состояние этикетки"
+
+#: order/models.py:137
+msgid "Is closed"
+msgstr "Закрыто"
+
+#: order/models.py:143
+msgid "Order items"
+msgstr "Товары в заказе"
+
+#: order/models.py:151 order/models.py:201 order/models.py:294
+msgid "Before state"
+msgstr "Предыдущее состояние"
+
+#: order/models.py:152
+msgid "Finished state"
+msgstr "Завершенное состояние"
+
+#: order/models.py:153
+msgid "Changed time"
+msgstr "Время изменения"
+
+#: order/models.py:156
+msgid "Order item status change history"
+msgstr "История изменения статуса товара в заказе"
+
+#: order/models.py:157
+msgid "Order item status change histories"
+msgstr "Истории изменения статуса товара в заказе"
+
+#: order/models.py:164
+msgid "Length"
+msgstr "Длина"
+
+#: order/models.py:167
+msgid "Width"
+msgstr "Ширина"
+
+#: order/models.py:170
+msgid "Weight"
+msgstr "Вес"
+
+#: order/models.py:173
+msgid "Height"
+msgstr "Высота"
+
+#: order/models.py:174 products/models.py:133
+msgid "Dimension unit"
+msgstr "Единица измерения размера"
+
+#: order/models.py:175 products/models.py:134
+msgid "Weight unit"
+msgstr "Единица измерения веса"
+
+#: order/models.py:179 order/models.py:193
+msgid "Box"
+msgstr "Коробка"
+
+#: order/models.py:180
+msgid "Boxes"
+msgstr "Коробки"
+
+#: order/models.py:184
+msgid "Shipment id"
+msgstr "ID отправления"
+
+#: order/models.py:188
+msgid "Shipping document"
+msgstr "Документ доставки"
+
+#: order/models.py:189
+msgid "Document format"
+msgstr "Формат документа"
+
+#: order/models.py:190
+msgid "Document size"
+msgstr "Размер документа"
+
+#: order/models.py:191
+msgid "Tracking page url"
+msgstr "URL страницы отслеживания"
+
+#: order/models.py:192
+msgid "Tracking"
+msgstr "Отслеживание"
+
+#: order/models.py:196 order/models.py:200
+msgid "Label"
+msgstr "Этикетка"
+
+#: order/models.py:197
+msgid "Labels"
+msgstr "Этикетки"
+
+#: order/models.py:202 order/models.py:295
+msgid "End state"
+msgstr "Конечное состояние"
+
+#: order/models.py:203 order/models.py:296
+msgid "Change time"
+msgstr "Время изменения"
+
+#: order/models.py:206
+msgid "Label history"
+msgstr "История этикетки"
+
+#: order/models.py:207
+msgid "Label histories"
+msgstr "Истории этикеток"
+
+#: order/models.py:210 order/models.py:276 products/models.py:15
+#: products/models.py:70 products/models.py:84 products/models.py:187
+#: products/models.py:225 products/models.py:236 products/models.py:308
+msgid "Name"
+msgstr "Имя"
+
+#: order/models.py:211 order/models.py:277 users/models.py:154
+msgid "Address"
+msgstr "Адрес"
+
+#: order/models.py:212 order/models.py:278 users/models.py:91
+#: users/models.py:132 users/models.py:148
+msgid "City"
+msgstr "Город"
+
+#: order/models.py:213 order/models.py:279 users/models.py:92
+#: users/models.py:133 users/models.py:149
+msgid "State"
+msgstr "Штат"
+
+#: order/models.py:214 order/models.py:280 products/models.py:295
+#: users/models.py:94 users/models.py:151
+msgid "Country"
+msgstr "Страна"
+
+#: order/models.py:215 order/models.py:281 users/models.py:93
+#: users/models.py:134 users/models.py:150
+msgid "Zip code"
+msgstr "Почтовый код"
+
+#: order/models.py:216 users/models.py:83
+msgid "Phone number"
+msgstr "Номер телефона"
+
+#: order/models.py:217
+msgid "Latitude"
+msgstr "Широта"
+
+#: order/models.py:218
+msgid "Longtitude"
+msgstr "Долгота"
+
+#: order/models.py:219
+msgid "Person name"
+msgstr "Имя человека"
+
+#: order/models.py:226
+msgid "Wholestore"
+msgstr "Склад"
+
+#: order/models.py:227
+msgid "Wholestores"
+msgstr "Склады"
+
+#: order/models.py:232
+msgid "Origin states: (only state codes with ',' split)"
+msgstr "Штаты отправления: (только коды штатов, разделенные запятыми)"
+
+#: order/models.py:233
+msgid "Delivery states: (only state codes with ',' split)"
+msgstr "Штаты доставки: (только коды штатов, разделенные запятыми)"
+
+#: order/models.py:236
+msgid "Tax %"
+msgstr "Налог %"
+
+#: order/models.py:242
+msgid "Tax"
+msgstr "Налог"
+
+#: order/models.py:243
+msgid "US States Taxes"
+msgstr "Налоги штатов США"
+
+#: order/models.py:249 users/models.py:202
+msgid "Amount"
+msgstr "Сумма"
+
+#: order/models.py:256
+msgid "App Fee Claim"
+msgstr "Требование комиссии приложения"
+
+#: order/models.py:257
+msgid "App Fee Claims"
+msgstr "Требования комиссии приложения"
+
+#: order/models.py:262
+msgid "Scheduled"
+msgstr "Забронированно"
+
+#: order/models.py:263 users/models.py:236
+msgid "Failed"
+msgstr "Ошибка"
+
+#: order/models.py:265 products/models.py:10 users/models.py:234
+msgid "Success"
+msgstr "Успех"
+
+#: order/models.py:271
+msgid "Date of pickup"
+msgstr "Дата пикапа"
+
+#: order/models.py:272
+msgid "Pickup state"
+msgstr "Статус пикапа"
+
+#: order/models.py:275
+#, fuzzy
+#| msgid "UUID"
+msgid "ID"
+msgstr "UUID"
+
+#: order/models.py:284
+#, fuzzy
+#| msgid "Order item"
+msgid "Order pickup"
+msgstr "Товар в заказе"
+
+#: order/models.py:285
+#, fuzzy
+#| msgid "Order items"
+msgid "Order pickups"
+msgstr "Товары в заказе"
+
+#: order/models.py:293
+msgid "Pickup"
+msgstr "Пикап"
+
+#: order/models.py:300
+msgid "Pickup history"
+msgstr "История пикапа"
+
+#: order/models.py:301
+#, fuzzy
+#| msgid "Label histories"
+msgid "Pickup histories"
+msgstr "Истории этикеток"
+
+#: products/admin.py:75
+#, fuzzy
+#| msgid "Delivered time"
+msgid "Delivery Time (days)"
+msgstr "Время доставки"
+
+#: products/admin.py:80
+#, fuzzy
+#| msgid "Origin - country"
+msgid "Origin Countries"
+msgstr "Отправитель - страна"
+
+#: products/admin.py:85
+#, fuzzy
+#| msgid "Delivered time"
+msgid "Delivery Countries"
+msgstr "Время доставки"
+
+#: products/apps.py:8 products/models.py:173
+msgid "Products"
+msgstr "Продукты"
+
+#: products/models.py:8
+msgid "Pending"
+msgstr "Ожидание"
+
+#: products/models.py:9
+msgid "Processing..."
+msgstr "Обработка..."
+
+#: products/models.py:22
+msgid "Parent"
+msgstr "Родитель"
+
+#: products/models.py:30 products/models.py:85
+msgid "Slug"
+msgstr "Slug"
+
+#: products/models.py:36 products/models.py:115 products/models.py:207
+msgid "Status of image"
+msgstr "Статус изображения"
+
+#: products/models.py:55 products/models.py:324
+msgid "Categories"
+msgstr "Категории"
+
+#: products/models.py:65
+msgid "Select"
+msgstr "Выбрать"
+
+#: products/models.py:66
+msgid "Multiple select"
+msgstr "Множественный выбор"
+
+#: products/models.py:67
+msgid "Boolean"
+msgstr "Логический"
+
+#: products/models.py:73
+msgid "Default values"
+msgstr "Значения по умолчанию"
+
+#: products/models.py:76 products/models.py:184
+msgid "Category option"
+msgstr "Опция категории"
+
+#: products/models.py:77
+msgid "Category options"
+msgstr "Опции категорий"
+
+#: products/models.py:88 users/models.py:205 users/models.py:224
+msgid "Description"
+msgstr "Описание"
+
+#: products/models.py:90
+msgid "Unit of measuring"
+msgstr "Единица измерения"
+
+#: products/models.py:91
+msgid "Country of origin"
+msgstr "Страна происхождения"
+
+#: products/models.py:92 products/models.py:250
+msgid "In stock"
+msgstr "В наличии"
+
+#: products/models.py:93
+msgid "Limited stock"
+msgstr "Ограниченный запас"
+
+#: products/models.py:95 products/models.py:261
+msgid "Minimum quantity"
+msgstr "Минимальное количество"
+
+#: products/models.py:97
+msgid "Active"
+msgstr "Активный"
+
+#: products/models.py:98
+msgid "Minimum price"
+msgstr "Минимальная цена"
+
+#: products/models.py:99
+msgid "Maximum price"
+msgstr "Максимальная цена"
+
+#: products/models.py:101
+msgid "Sold quantity"
+msgstr "Количество продано"
+
+#: products/models.py:102
+msgid "Last sold at"
+msgstr "Последняя продажа в"
+
+#: products/models.py:103
+msgid "Bulk"
+msgstr "Оптовый"
+
+#: products/models.py:118
+msgid "Shipping address"
+msgstr "Адрес доставки"
+
+#: products/models.py:122
+msgid "Item length"
+msgstr "Длина товара"
+
+#: products/models.py:125 products/models.py:131
+msgid "Item weight"
+msgstr "Вес товара"
+
+#: products/models.py:128
+msgid "Item width"
+msgstr "Ширина товара"
+
+#: products/models.py:138
+msgid "One box length"
+msgstr "Длина одной коробки"
+
+#: products/models.py:141
+msgid "One box height"
+msgstr "Высота одной коробки"
+
+#: products/models.py:144
+msgid "One box width"
+msgstr "Ширина одной коробки"
+
+#: products/models.py:147
+msgid "One box weight"
+msgstr "Вес одной коробки"
+
+#: products/models.py:186
+msgid "Value"
+msgstr "Значение"
+
+#: products/models.py:190
+msgid "Product option"
+msgstr "Опция продукта"
+
+#: products/models.py:191
+msgid "Product options"
+msgstr "Опции продукта"
+
+#: products/models.py:198
+msgid "Video"
+msgstr "Видео"
+
+#: products/models.py:201
+msgid "File type"
+msgstr "Тип файла"
+
+#: products/models.py:202
+msgid "File"
+msgstr "Файл"
+
+#: products/models.py:235
+msgid "Variation category"
+msgstr "Категория вариации"
+
+#: products/models.py:240
+msgid "Product variation"
+msgstr "Вариация продукта"
+
+#: products/models.py:241
+msgid "Product variations"
+msgstr "Вариации продукта"
+
+#: products/models.py:256
+msgid "Variation quantity"
+msgstr "Количество вариаций"
+
+#: products/models.py:257
+msgid "Variation quantities"
+msgstr "Количества вариаций"
+
+#: products/models.py:263
+msgid "Lead time min:"
+msgstr "Минимальное время выполнения:"
+
+#: products/models.py:264
+msgid "Lead time max:"
+msgstr "Максимальное время выполнения:"
+
+#: products/models.py:282
+msgid "Bulk purchase policy"
+msgstr "Политика оптовых закупок"
+
+#: products/models.py:283
+msgid "Bulk purchase policies"
+msgstr "Политики оптовых закупок"
+
+#: products/models.py:294
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: products/models.py:298
+msgid "Review"
+msgstr "Отзыв"
+
+#: products/models.py:299
+msgid "Reviews"
+msgstr "Отзывы"
+
+#: products/models.py:309
+msgid "Origin countries: (only country codes with ',' split)"
+msgstr "Страны отправления: (только коды стран, разделенные запятыми)"
+
+#: products/models.py:310
+msgid "Delivery countries: (only country codes with ',' split)"
+msgstr "Страны доставки: (только коды стран, разделенные запятыми)"
+
+#: products/models.py:312
+msgid "Minimum delivery time"
+msgstr "Минимальное время доставки"
+
+#: products/models.py:313
+msgid "Maximum delivery time"
+msgstr "Максимальное время доставки"
+
+#: products/models.py:315
+msgid "Meter cube price"
+msgstr "Цена за кубический метр"
+
+#: products/models.py:316
+msgid "Kilogram price"
+msgstr "Цена за килограмм"
+
+#: products/models.py:321
+msgid "Max kilogram"
+msgstr "Максимальный килограмм"
+
+#: products/models.py:322
+msgid "Max meter cube"
+msgstr "Максимальный кубический метр"
+
+#: products/models.py:330
+msgid "Shipping"
+msgstr "Доставка"
+
+#: products/models.py:331
+msgid "YuuSell Shippings"
+msgstr "Доставки YuuSell"
+
+#: recommendation/apps.py:8
+msgid "Recommendation"
+msgstr "Рекомендация"
+
+#: users/apps.py:8 users/models.py:73
+msgid "Users"
+msgstr "Пользователи"
+
+#: users/models.py:44 users/models.py:123
+msgid "First name"
+msgstr "Имя"
+
+#: users/models.py:45 users/models.py:124
+msgid "Last name"
+msgstr "Фамилия"
+
+#: users/models.py:52
+msgid "Is active"
+msgstr "Активен"
+
+#: users/models.py:53
+msgid "Is staff"
+msgstr "Сотрудник"
+
+#: users/models.py:54
+msgid "Is superuser"
+msgstr "Суперпользователь"
+
+#: users/models.py:55
+msgid "Is seller"
+msgstr "Продавец"
+
+#: users/models.py:56
+msgid "Is verified seller"
+msgstr "Проверенный продавец"
+
+#: users/models.py:66
+msgid "Square customer id"
+msgstr "ID клиента Square"
+
+#: users/models.py:79
+msgid "Store name"
+msgstr "Название магазина"
+
+#: users/models.py:80
+msgid "Business name"
+msgstr "Название бизнеса"
+
+#: users/models.py:81
+msgid "Business type"
+msgstr "Тип бизнеса"
+
+#: users/models.py:82
+msgid "Custom business type"
+msgstr "Пользовательский тип бизнеса"
+
+#: users/models.py:84
+msgid "Is phone verified"
+msgstr "Подтвержден ли телефон"
+
+#: users/models.py:85
+msgid "Is agreement accepted"
+msgstr "Принято ли соглашение"
+
+#: users/models.py:89 users/models.py:130 users/models.py:146
+msgid "Address line 1"
+msgstr "Адресная строка 1"
+
+#: users/models.py:90 users/models.py:131 users/models.py:147
+msgid "Address line 2"
+msgstr "Адресная строка 2"
+
+#: users/models.py:96
+msgid "Available balance"
+msgstr "Доступный баланс"
+
+#: users/models.py:97
+msgid "On hold balance"
+msgstr "Заблокированный баланс"
+
+#: users/models.py:118
+msgid "Sellers"
+msgstr "Продавцы"
+
+#: users/models.py:125
+msgid "Citizenship"
+msgstr "Гражданство"
+
+#: users/models.py:126
+msgid "Birth country"
+msgstr "Страна рождения"
+
+#: users/models.py:127
+msgid "Birth date"
+msgstr "Дата рождения"
+
+#: users/models.py:128
+msgid "Residential country"
+msgstr "Страна проживания"
+
+#: users/models.py:129
+msgid "Contact person role"
+msgstr "Роль контактного лица"
+
+#: users/models.py:140
+msgid "Contact person"
+msgstr "Контактное лицо"
+
+#: users/models.py:141
+msgid "Contact people"
+msgstr "Контактные лица"
+
+#: users/models.py:155
+msgid "Addresses"
+msgstr "Адреса"
+
+#: users/models.py:162
+msgid "Document type"
+msgstr "Тип документа"
+
+#: users/models.py:163 users/models.py:167
+msgid "Document"
+msgstr "Документ"
+
+#: users/models.py:164
+msgid "Upload date"
+msgstr "Дата загрузки"
+
+#: users/models.py:168
+msgid "Documents"
+msgstr "Документы"
+
+#: users/models.py:173
+msgid "Square id"
+msgstr "ID Square"
+
+#: users/models.py:174 users/models.py:246
+msgid "Bin number"
+msgstr "Номер BIN"
+
+#: users/models.py:177 users/models.py:249
+msgid "Cardholder name"
+msgstr "Имя владельца карты"
+
+#: users/models.py:178 users/models.py:250
+msgid "Last 4 digits"
+msgstr "Последние 4 цифры"
+
+#: users/models.py:181
+msgid "Card"
+msgstr "Карта"
+
+#: users/models.py:182
+msgid "Cards"
+msgstr "Карты"
+
+#: users/models.py:201 users/models.py:221
+msgid "Transaction type"
+msgstr "Тип транзакции"
+
+#: users/models.py:203 users/models.py:220 users/models.py:242
+msgid "Timestamp"
+msgstr "Временная метка"
+
+#: users/models.py:204 users/models.py:245
+msgid "Reference ID"
+msgstr "ID ссылки"
+
+#: users/models.py:206
+msgid "Closing balance"
+msgstr "Закрывающий баланс"
+
+#: users/models.py:207
+msgid "Variation"
+msgstr "Вариация"
+
+#: users/models.py:213
+msgid "Seller transaction"
+msgstr "История продавца"
+
+#: users/models.py:214
+msgid "Seller transactions"
+msgstr "Истории продавца"
+
+#: users/models.py:218
+msgid "Order ID"
+msgstr "ID заказа"
+
+#: users/models.py:219 users/models.py:241
+msgid "Amount ($)"
+msgstr "Сумма ($)"
+
+#: users/models.py:222
+msgid "Courier ID"
+msgstr "ID курьера"
+
+#: users/models.py:230
+msgid "Shipping transaction"
+msgstr "История доставки YuuSell"
+
+#: users/models.py:231
+msgid "Shipping transactions"
+msgstr "Истории доставки YuuSell"
+
+#: users/models.py:235
+#, fuzzy
+#| msgid "Processing..."
+msgid "Processing"
+msgstr "Обработка..."
+
+#: users/models.py:243
+msgid "Fee amount ($)"
+msgstr "Сумма комиссии ($)"
+
+#: users/models.py:252
+msgid "State of process"
+msgstr "Статус процесса"
+
+#: users/models.py:255
+msgid "Withdraw request"
+msgstr "Запрос на вывод средств"
+
+#: users/models.py:256
+msgid "Withdraw requests"
+msgstr "Запросы на вывод средств"

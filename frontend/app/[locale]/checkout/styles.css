@@ -1,0 +1,47 @@
+.VISA.medium {
+    background: url(https://ir.ebaystatic.com/cr/v/c01/payment-sprites/payment-sprites-0.2.4.svg) 84.7522123894% 47.3317865429% no-repeat;
+    height: 34px;
+    width: 52px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.VISA.x-small {
+    background: url(https://ir.ebaystatic.com/cr/v/c01/payment-sprites/payment-sprites-0.2.4.svg) 63.9915254237% 85.3573033708% no-repeat;
+    height: 20px;
+    width: 32px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.MASTERCARD.x-small {
+    background: url(https://ir.ebaystatic.com/cr/v/c01/payment-sprites/payment-sprites-0.2.4.svg) 50.4322033898% 85.3573033708% no-repeat;
+    height: 20px;
+    width: 32px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.AM_EX.x-small {
+    background: url(https://ir.ebaystatic.com/cr/v/c01/payment-sprites/payment-sprites-0.2.4.svg) 40.6652542373% 46.202247191% no-repeat;
+    height: 20px;
+    width: 32px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.DISCOVER.x-small {
+    background: url(https://ir.ebaystatic.com/cr/v/c01/payment-sprites/payment-sprites-0.2.4.svg) 48.3008474576% 64.7370786517% no-repeat;
+    height: 20px;
+    width: 32px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.PAYPAL.medium {
+    background: url(https://ir.ebaystatic.com/cr/v/c01/payment-sprites/payment-sprites-0.2.4.svg) 57.5221238938% 80.2412993039% no-repeat;
+    height: 34px;
+    width: 52px;
+    display: inline-block;
+    vertical-align: middle;
+}

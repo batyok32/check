@@ -1,0 +1,1823 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-13 22:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: administration/apps.py:8
+msgid "Administration"
+msgstr "Dolandyryş"
+
+#: administration/models.py:11 administration/models.py:43 order/models.py:142
+#: order/models.py:150 order/models.py:183 order/models.py:246
+#: order/models.py:270 products/models.py:292
+msgid "Order item"
+msgstr "Sargyt harydy"
+
+#: administration/models.py:12
+msgid "Reason"
+msgstr "Sebäp"
+
+#: administration/models.py:13 administration/models.py:66 order/models.py:79
+msgid "Status"
+msgstr "Ýagdaý"
+
+#: administration/models.py:14 administration/models.py:30
+#: administration/models.py:67 administration/models.py:88 order/models.py:16
+#: products/models.py:148 products/models.py:291 users/models.py:63
+#: users/models.py:86
+msgid "Created"
+msgstr "Döredilen"
+
+#: administration/models.py:17
+#, python-format
+msgid "Refund request for %(order_item)s - Status: %(status)s"
+msgstr "Wozwrat haýyşy üçin %(order_item)s - Ýagdaý: %(status)s"
+
+#: administration/models.py:23
+msgid "Refund request"
+msgstr "Wozwrat"
+
+#: administration/models.py:24
+msgid "Refund requests"
+msgstr "Wozwratlar"
+
+#: administration/models.py:27 administration/models.py:62
+#: administration/models.py:84 products/models.py:288 users/models.py:72
+#: users/models.py:78 users/models.py:145 users/models.py:172
+msgid "User"
+msgstr "Ulanyjy"
+
+#: administration/models.py:28 products/models.py:289
+msgid "Rating"
+msgstr "Baha"
+
+#: administration/models.py:29 products/models.py:290
+msgid "Comment"
+msgstr "Teswir"
+
+#: administration/models.py:33
+#, python-format
+msgid "Review by %(user)s - Rating: %(rating)s"
+msgstr "%(user)s tarapyndan komentariya - Baha: %(rating)s"
+
+#: administration/models.py:38
+msgid "App review"
+msgstr "Programma komentariýasy"
+
+#: administration/models.py:39
+msgid "App reviews"
+msgstr "Programma komentariýalary"
+
+#: administration/models.py:42 products/models.py:11
+msgid "Error"
+msgstr "Ýalňyşlyk"
+
+#: administration/models.py:44
+msgid "Notes"
+msgstr "Bellikler"
+
+#: administration/models.py:52
+msgid "Label create fail"
+msgstr "Etiket döretmek şowsuz"
+
+#: administration/models.py:53
+msgid "Label create fails"
+msgstr "Etiket döretmek şowsuzlyklary"
+
+#: administration/models.py:63 administration/models.py:85 users/models.py:49
+msgid "Email"
+msgstr "E-poçta"
+
+#: administration/models.py:64 administration/models.py:161
+#: products/models.py:293
+msgid "Subject"
+msgstr "Mowzuk"
+
+#: administration/models.py:65 administration/models.py:87
+msgid "Message"
+msgstr "Habar"
+
+#: administration/models.py:68
+msgid "Resolved"
+msgstr "Çözülen"
+
+#: administration/models.py:71
+msgid "Support case"
+msgstr "Goldaw işi"
+
+#: administration/models.py:72
+msgid "Support cases"
+msgstr "Goldaw işleri"
+
+#: administration/models.py:86
+msgid "Case"
+msgstr "Iş"
+
+#: administration/models.py:91
+msgid "Admin"
+msgstr "Admin"
+
+#: administration/models.py:91
+msgid "Client"
+msgstr "Müşderi"
+
+#: administration/models.py:118
+msgid "Support case message"
+msgstr "Goldaw iş habary"
+
+#: administration/models.py:119
+msgid "Support case messages"
+msgstr "Goldaw iş habarlary"
+
+#: administration/models.py:127 administration/models.py:160
+msgid "User type"
+msgstr "Ulanyjy görnüşi"
+
+#: administration/models.py:128
+msgid "Title"
+msgstr "Ady"
+
+#: administration/models.py:133 administration/models.py:168
+#: products/models.py:28 products/models.py:109 products/models.py:197
+msgid "Image"
+msgstr "Surat"
+
+#: administration/models.py:154
+msgid "Help category"
+msgstr "Kömek kategoriýasy"
+
+#: administration/models.py:155
+msgid "Help categories"
+msgstr "Kömek kategoriýalary"
+
+#: administration/models.py:159 products/models.py:54 products/models.py:71
+#: products/models.py:94
+msgid "Category"
+msgstr "Kategoriýa"
+
+#: administration/models.py:162
+msgid "Text"
+msgstr "Tekst"
+
+#: administration/models.py:163
+msgid "Short description"
+msgstr "Gysga düşündiriş"
+
+#: administration/models.py:187
+msgid "Help"
+msgstr "Kömek"
+
+#: administration/models.py:188
+msgid "Helps"
+msgstr "Kömekler"
+
+#: order/apps.py:8 order/models.py:44
+msgid "Orders"
+msgstr "Sargytlar"
+
+#: order/models.py:14 order/models.py:57 products/models.py:86
+msgid "UUID"
+msgstr "UUID"
+
+#: order/models.py:15
+msgid "Customer"
+msgstr "Müşderi"
+
+#: order/models.py:17 products/models.py:149 users/models.py:64
+#: users/models.py:87
+msgid "Updated"
+msgstr "Täzelendi"
+
+#: order/models.py:19 order/models.py:77
+msgid "Total price"
+msgstr "Jemi bahasy"
+
+#: order/models.py:20
+msgid "Total shipping"
+msgstr "Jemi iberiş"
+
+#: order/models.py:21
+msgid "Total tax"
+msgstr "Jemi salgyt"
+
+#: order/models.py:22 order/models.py:176
+msgid "Total items"
+msgstr "Jemi harytlar"
+
+#: order/models.py:24
+msgid "Card id"
+msgstr "Kartoçka ID"
+
+#: order/models.py:25 users/models.py:176 users/models.py:248
+msgid "Card type"
+msgstr "Kartoçka görnüşi"
+
+#: order/models.py:26 users/models.py:175 users/models.py:247
+msgid "Card brand"
+msgstr "Kartoçka markasy"
+
+#: order/models.py:27
+msgid "Card last 4 digits"
+msgstr "Kartoçkanyň soňky 4 sanawy"
+
+#: order/models.py:28
+msgid "Square payment id"
+msgstr "Square töleg ID"
+
+#: order/models.py:30
+msgid "Destination - full name"
+msgstr "Gideýiş ýeri - doly ady"
+
+#: order/models.py:31
+msgid "Destination - address line"
+msgstr "Gideýiş ýeri - salgy haty"
+
+#: order/models.py:32
+msgid "Destination - address line 2"
+msgstr "Gideýiş ýeri - salgy haty 2"
+
+#: order/models.py:33
+msgid "Destination - city"
+msgstr "Gideýiş ýeri - şäher"
+
+#: order/models.py:34
+msgid "Destination - state"
+msgstr "Gideýiş ýeri - ştat"
+
+#: order/models.py:35
+msgid "Destination - zip code"
+msgstr "Gideýiş ýeri - poçta kody"
+
+#: order/models.py:36
+msgid "Destination - country"
+msgstr "Gideýiş ýeri - ýurt"
+
+#: order/models.py:37
+msgid "Destination - phone number"
+msgstr "Gideýiş ýeri - telefon belgisi"
+
+#: order/models.py:43 order/models.py:70
+msgid "Order"
+msgstr "Sargyt"
+
+#: order/models.py:71 products/models.py:172 products/models.py:185
+#: products/models.py:200 products/models.py:224 products/models.py:247
+#: products/models.py:260 products/models.py:287
+msgid "Product"
+msgstr "Önüm"
+
+#: order/models.py:72 order/models.py:247 products/models.py:89
+#: users/models.py:117 users/models.py:122 users/models.py:161
+#: users/models.py:200 users/models.py:217 users/models.py:240
+msgid "Seller"
+msgstr "Satyjy"
+
+#: order/models.py:74
+msgid "Quantity"
+msgstr "Mukdary"
+
+#: order/models.py:75 products/models.py:262
+msgid "Price"
+msgstr "Bahasy"
+
+#: order/models.py:81 order/models.py:185
+msgid "Courier id"
+msgstr "Kuryer ID"
+
+#: order/models.py:82 order/models.py:186 users/models.py:223
+msgid "Courier name"
+msgstr "Kuryer ady"
+
+#: order/models.py:83
+msgid "Courier type"
+msgstr "Kuryer görnüşi"
+
+#: order/models.py:85
+msgid "Shipping total"
+msgstr "Iberiş jemi"
+
+#: order/models.py:89
+msgid "Tax rate"
+msgstr "Salgyt derejesi"
+
+#: order/models.py:92
+msgid "Total of taxes"
+msgstr "Salgytlaryň jemi"
+
+#: order/models.py:96
+msgid "App Fee (10%)"
+msgstr "Programma tölegi (10%)"
+
+#: order/models.py:99
+msgid "Without app fee"
+msgstr "Programma tölegi bolmazdan"
+
+#: order/models.py:101 products/models.py:249
+msgid "Variations"
+msgstr "Waryasyýalar"
+
+#: order/models.py:102
+msgid "Product name"
+msgstr "Önümiň ady"
+
+#: order/models.py:104
+msgid "Is bulk"
+msgstr "Köpçülikleýinmi"
+
+#: order/models.py:106
+msgid "Bought in containers"
+msgstr "Konteýnerda satyn alynan"
+
+#: order/models.py:107
+msgid "Quantity inside container"
+msgstr "Konteýneriň içindäki san"
+
+#: order/models.py:111 products/models.py:269
+#, fuzzy
+#| msgid "Item length"
+msgid "Container length"
+msgstr "Zat uzynlygy"
+
+#: order/models.py:114 products/models.py:272
+#, fuzzy
+#| msgid "One box height"
+msgid "Container height"
+msgstr "Biriňki gutu beýikligi"
+
+#: order/models.py:117 products/models.py:275
+#, fuzzy
+#| msgid "Item width"
+msgid "Container width"
+msgstr "Zat ini"
+
+#: order/models.py:120 products/models.py:278
+#, fuzzy
+#| msgid "Item weight"
+msgid "Container weight"
+msgstr "Zat agramy"
+
+#: order/models.py:122
+msgid "Origin - address 1"
+msgstr "Çykyş - salgy 1"
+
+#: order/models.py:123
+msgid "Origin - address 2"
+msgstr "Çykyş - salgy 2"
+
+#: order/models.py:124
+msgid "Origin - city"
+msgstr "Çykyş - şäher"
+
+#: order/models.py:125
+msgid "Origin - state"
+msgstr "Çykyş - ştat"
+
+#: order/models.py:126
+msgid "Origin - zip code"
+msgstr "Çykyş - poçta kody"
+
+#: order/models.py:127
+msgid "Origin - country"
+msgstr "Çykyş - ýurt"
+
+#: order/models.py:129
+msgid "Order notes"
+msgstr "Sargyt bellikleri"
+
+#: order/models.py:131
+msgid "Released time"
+msgstr "Boşadyş wagty"
+
+#: order/models.py:132
+msgid "Delivered time"
+msgstr "Eltip berlen wagty"
+
+#: order/models.py:134 order/models.py:161
+msgid "Is label created"
+msgstr "Etiket döredilenmi"
+
+#: order/models.py:135 order/models.py:187
+msgid "Label state"
+msgstr "Etiket ýagdaýy"
+
+#: order/models.py:137
+msgid "Is closed"
+msgstr "Ýapykmy"
+
+#: order/models.py:143
+msgid "Order items"
+msgstr "Sargyt harytlary"
+
+#: order/models.py:151 order/models.py:201 order/models.py:294
+msgid "Before state"
+msgstr "Öňki ýagdaý"
+
+#: order/models.py:152
+msgid "Finished state"
+msgstr "Gutarnykly ýagdaý"
+
+#: order/models.py:153
+msgid "Changed time"
+msgstr "Üýtgedilen wagty"
+
+#: order/models.py:156
+msgid "Order item status change history"
+msgstr "Sargyt harydy ýagdaýy üýtgeşme taryhy"
+
+#: order/models.py:157
+msgid "Order item status change histories"
+msgstr "Sargyt harydy ýagdaýy üýtgeşme taryhlary"
+
+#: order/models.py:164
+msgid "Length"
+msgstr "Uzynlygy"
+
+#: order/models.py:167
+msgid "Width"
+msgstr "Ini"
+
+#: order/models.py:170
+msgid "Weight"
+msgstr "Agramy"
+
+#: order/models.py:173
+msgid "Height"
+msgstr "Beýikligi"
+
+#: order/models.py:174 products/models.py:133
+msgid "Dimension unit"
+msgstr "Ölçeg birligi"
+
+#: order/models.py:175 products/models.py:134
+msgid "Weight unit"
+msgstr "Agram birligi"
+
+#: order/models.py:179 order/models.py:193
+msgid "Box"
+msgstr "Gutu"
+
+#: order/models.py:180
+msgid "Boxes"
+msgstr "Gutular"
+
+#: order/models.py:184
+msgid "Shipment id"
+msgstr "Iberiş ID"
+
+#: order/models.py:188
+msgid "Shipping document"
+msgstr "Iberiş resminamasy"
+
+#: order/models.py:189
+msgid "Document format"
+msgstr "Resminama görnüşi"
+
+#: order/models.py:190
+msgid "Document size"
+msgstr "Resminama ölçegi"
+
+#: order/models.py:191
+msgid "Tracking page url"
+msgstr "Yzarlaýyş sahypa URL"
+
+#: order/models.py:192
+msgid "Tracking"
+msgstr "Yzarlaýyş"
+
+#: order/models.py:196 order/models.py:200
+msgid "Label"
+msgstr "Etiket"
+
+#: order/models.py:197
+msgid "Labels"
+msgstr "Etiketler"
+
+#: order/models.py:202 order/models.py:295
+msgid "End state"
+msgstr "Gutarnykly ýagdaý"
+
+#: order/models.py:203 order/models.py:296
+msgid "Change time"
+msgstr "Üýtgeşme wagty"
+
+#: order/models.py:206
+msgid "Label history"
+msgstr "Etiket taryhy"
+
+#: order/models.py:207
+msgid "Label histories"
+msgstr "Etiket taryhlary"
+
+#: order/models.py:210 order/models.py:276 products/models.py:15
+#: products/models.py:70 products/models.py:84 products/models.py:187
+#: products/models.py:225 products/models.py:236 products/models.py:308
+msgid "Name"
+msgstr "Ady"
+
+#: order/models.py:211 order/models.py:277 users/models.py:154
+msgid "Address"
+msgstr "Salgy"
+
+#: order/models.py:212 order/models.py:278 users/models.py:91
+#: users/models.py:132 users/models.py:148
+msgid "City"
+msgstr "Şäher"
+
+#: order/models.py:213 order/models.py:279 users/models.py:92
+#: users/models.py:133 users/models.py:149
+msgid "State"
+msgstr "Ştat"
+
+#: order/models.py:214 order/models.py:280 products/models.py:295
+#: users/models.py:94 users/models.py:151
+msgid "Country"
+msgstr "Ýurt"
+
+#: order/models.py:215 order/models.py:281 users/models.py:93
+#: users/models.py:134 users/models.py:150
+msgid "Zip code"
+msgstr "Poçta kody"
+
+#: order/models.py:216 users/models.py:83
+msgid "Phone number"
+msgstr "Telefon belgisi"
+
+#: order/models.py:217
+msgid "Latitude"
+msgstr "Giňişlik"
+
+#: order/models.py:218
+msgid "Longtitude"
+msgstr "Uzynlyk"
+
+#: order/models.py:219
+msgid "Person name"
+msgstr "Adamyň ady"
+
+#: order/models.py:226
+msgid "Wholestore"
+msgstr "Ammar"
+
+#: order/models.py:227
+msgid "Wholestores"
+msgstr "Ammarlar"
+
+#: order/models.py:232
+msgid "Origin states: (only state codes with ',' split)"
+msgstr "Çykyş ştatlary: (diňe ştat kodlary ',' bölünen)"
+
+#: order/models.py:233
+msgid "Delivery states: (only state codes with ',' split)"
+msgstr "Eltip beriş ştatlary: (diňe ştat kodlary ',' bölünen)"
+
+#: order/models.py:236
+msgid "Tax %"
+msgstr "Salgyt %"
+
+#: order/models.py:242
+msgid "Tax"
+msgstr "Salgyt"
+
+#: order/models.py:243
+msgid "US States Taxes"
+msgstr "ABŞ Ştatlarynyň Salgytlary"
+
+#: order/models.py:249 users/models.py:202
+msgid "Amount"
+msgstr "Mukdar"
+
+#: order/models.py:256
+msgid "App Fee Claim"
+msgstr "Programma töleg"
+
+#: order/models.py:257
+msgid "App Fee Claims"
+msgstr "Programma tölegler"
+
+#: order/models.py:262
+msgid "Scheduled"
+msgstr "Reserwlenen"
+
+#: order/models.py:263 users/models.py:236
+msgid "Failed"
+msgstr "Ýalňyşlyk"
+
+#: order/models.py:265 products/models.py:10 users/models.py:234
+msgid "Success"
+msgstr "Üstünlik"
+
+#: order/models.py:271
+msgid "Date of pickup"
+msgstr "Pikapyň wagty"
+
+#: order/models.py:272
+msgid "Pickup state"
+msgstr "Pikapyň ýagdaýy"
+
+#: order/models.py:275
+#, fuzzy
+#| msgid "UUID"
+msgid "ID"
+msgstr "UUID"
+
+#: order/models.py:284
+#, fuzzy
+#| msgid "Order item"
+msgid "Order pickup"
+msgstr "Sargyt harydy"
+
+#: order/models.py:285
+#, fuzzy
+#| msgid "Order items"
+msgid "Order pickups"
+msgstr "Sargyt harytlary"
+
+#: order/models.py:293
+msgid "Pickup"
+msgstr "Pikap"
+
+#: order/models.py:300
+msgid "Pickup history"
+msgstr "Pikapyň taryhy"
+
+#: order/models.py:301
+#, fuzzy
+#| msgid "Label histories"
+msgid "Pickup histories"
+msgstr "Etiket taryhlary"
+
+#: products/admin.py:75
+#, fuzzy
+#| msgid "Delivered time"
+msgid "Delivery Time (days)"
+msgstr "Eltip berlen wagty"
+
+#: products/admin.py:80
+#, fuzzy
+#| msgid "Origin - country"
+msgid "Origin Countries"
+msgstr "Çykyş - ýurt"
+
+#: products/admin.py:85
+#, fuzzy
+#| msgid "Delivered time"
+msgid "Delivery Countries"
+msgstr "Eltip berlen wagty"
+
+#: products/apps.py:8 products/models.py:173
+msgid "Products"
+msgstr "Önümler"
+
+#: products/models.py:8
+msgid "Pending"
+msgstr "Garaşylýar"
+
+#: products/models.py:9
+msgid "Processing..."
+msgstr "Işlenilýär..."
+
+#: products/models.py:22
+msgid "Parent"
+msgstr "Ata"
+
+#: products/models.py:30 products/models.py:85
+msgid "Slug"
+msgstr "Slug"
+
+#: products/models.py:36 products/models.py:115 products/models.py:207
+msgid "Status of image"
+msgstr "Suratyň ýagdaýy"
+
+#: products/models.py:55 products/models.py:324
+msgid "Categories"
+msgstr "Kategoriýalar"
+
+#: products/models.py:65
+msgid "Select"
+msgstr "Saýlaň"
+
+#: products/models.py:66
+msgid "Multiple select"
+msgstr "Köp sanly saýlaň"
+
+#: products/models.py:67
+msgid "Boolean"
+msgstr "Bolanok"
+
+#: products/models.py:73
+msgid "Default values"
+msgstr "Bellenen bahalar"
+
+#: products/models.py:76 products/models.py:184
+msgid "Category option"
+msgstr "Kategoriýa opsiýasy"
+
+#: products/models.py:77
+msgid "Category options"
+msgstr "Kategoriýa opsiýalary"
+
+#: products/models.py:88 users/models.py:205 users/models.py:224
+msgid "Description"
+msgstr "Düşündiriş"
+
+#: products/models.py:90
+msgid "Unit of measuring"
+msgstr "Ölçeg birligi"
+
+#: products/models.py:91
+msgid "Country of origin"
+msgstr "Çykyş ýurdy"
+
+#: products/models.py:92 products/models.py:250
+msgid "In stock"
+msgstr "Gatda bar"
+
+#: products/models.py:93
+msgid "Limited stock"
+msgstr "Çäkli stok"
+
+#: products/models.py:95 products/models.py:261
+msgid "Minimum quantity"
+msgstr "Iň az mukdar"
+
+#: products/models.py:97
+msgid "Active"
+msgstr "Işjeň"
+
+#: products/models.py:98
+msgid "Minimum price"
+msgstr "Iň az bahasy"
+
+#: products/models.py:99
+msgid "Maximum price"
+msgstr "Iň köp bahasy"
+
+#: products/models.py:101
+msgid "Sold quantity"
+msgstr "Satylan mukdary"
+
+#: products/models.py:102
+msgid "Last sold at"
+msgstr "Soňky satylan wagty"
+
+#: products/models.py:103
+msgid "Bulk"
+msgstr "Köpçülikleýin"
+
+#: products/models.py:118
+msgid "Shipping address"
+msgstr "Iberiş salgysy"
+
+#: products/models.py:122
+msgid "Item length"
+msgstr "Zat uzynlygy"
+
+#: products/models.py:125 products/models.py:131
+msgid "Item weight"
+msgstr "Zat agramy"
+
+#: products/models.py:128
+msgid "Item width"
+msgstr "Zat ini"
+
+#: products/models.py:138
+msgid "One box length"
+msgstr "Biriňki gutu uzynlygy"
+
+#: products/models.py:141
+msgid "One box height"
+msgstr "Biriňki gutu beýikligi"
+
+#: products/models.py:144
+msgid "One box width"
+msgstr "Biriňki gutu ini"
+
+#: products/models.py:147
+msgid "One box weight"
+msgstr "Biriňki gutu agramy"
+
+#: products/models.py:186
+msgid "Value"
+msgstr "Baha"
+
+#: products/models.py:190
+msgid "Product option"
+msgstr "Önüm opsiýasy"
+
+#: products/models.py:191
+msgid "Product options"
+msgstr "Önüm opsiýalary"
+
+#: products/models.py:198
+msgid "Video"
+msgstr "Wideo"
+
+#: products/models.py:201
+msgid "File type"
+msgstr "Faýl görnüşi"
+
+#: products/models.py:202
+msgid "File"
+msgstr "Faýl"
+
+#: products/models.py:235
+msgid "Variation category"
+msgstr "Waryasyýa kategoriýasy"
+
+#: products/models.py:240
+msgid "Product variation"
+msgstr "Önüm waryasyýasy"
+
+#: products/models.py:241
+msgid "Product variations"
+msgstr "Önüm waryasyýalary"
+
+#: products/models.py:256
+msgid "Variation quantity"
+msgstr "Waryasyýa mukdary"
+
+#: products/models.py:257
+msgid "Variation quantities"
+msgstr "Waryasyýa mukdary"
+
+#: products/models.py:263
+msgid "Lead time min:"
+msgstr "Iň az wagty"
+
+#: products/models.py:264
+msgid "Lead time max:"
+msgstr "Iň köp wagty"
+
+#: products/models.py:282
+msgid "Bulk purchase policy"
+msgstr "Köpçülikleýin satyn alyş syýasaty"
+
+#: products/models.py:283
+msgid "Bulk purchase policies"
+msgstr "Köpçülikleýin satyn alyş syýasatlary"
+
+#: products/models.py:294
+msgid "Username"
+msgstr "Ulanyjy ady"
+
+#: products/models.py:298
+msgid "Review"
+msgstr "Komentariýa"
+
+#: products/models.py:299
+msgid "Reviews"
+msgstr "Komentariýalar"
+
+#: products/models.py:309
+msgid "Origin countries: (only country codes with ',' split)"
+msgstr "Çykyş ýurtlary: (diňe ýurt kodlary ',' bölünen)"
+
+#: products/models.py:310
+msgid "Delivery countries: (only country codes with ',' split)"
+msgstr "Eltip beriş ýurtlary: (diňe ýurt kodlary ',' bölünen)"
+
+#: products/models.py:312
+msgid "Minimum delivery time"
+msgstr "Iň az eltip beriş wagty"
+
+#: products/models.py:313
+msgid "Maximum delivery time"
+msgstr "Iň köp eltip beriş wagty"
+
+#: products/models.py:315
+msgid "Meter cube price"
+msgstr "Kub metr bahasy"
+
+#: products/models.py:316
+msgid "Kilogram price"
+msgstr "Kilogram bahasy"
+
+#: products/models.py:321
+msgid "Max kilogram"
+msgstr "Iň köp kilogram"
+
+#: products/models.py:322
+msgid "Max meter cube"
+msgstr "Iň köp kub metr"
+
+#: products/models.py:330
+msgid "Shipping"
+msgstr "Iberiş"
+
+#: products/models.py:331
+msgid "YuuSell Shippings"
+msgstr "YuuSell Iberişleri"
+
+#: recommendation/apps.py:8
+msgid "Recommendation"
+msgstr "Maslahat"
+
+#: users/apps.py:8 users/models.py:73
+msgid "Users"
+msgstr "Ulanyjylar"
+
+#: users/models.py:44 users/models.py:123
+msgid "First name"
+msgstr "Birinji ady"
+
+#: users/models.py:45 users/models.py:124
+msgid "Last name"
+msgstr "Soňky ady"
+
+#: users/models.py:52
+msgid "Is active"
+msgstr "Işjeňmi"
+
+#: users/models.py:53
+msgid "Is staff"
+msgstr "Işgärmi"
+
+#: users/models.py:54
+msgid "Is superuser"
+msgstr "Baş işgärmi"
+
+#: users/models.py:55
+msgid "Is seller"
+msgstr "Satyjymy"
+
+#: users/models.py:56
+msgid "Is verified seller"
+msgstr "Tassyklanan satyjymy"
+
+#: users/models.py:66
+msgid "Square customer id"
+msgstr "Square müşderi ID"
+
+#: users/models.py:79
+msgid "Store name"
+msgstr "Dükan ady"
+
+#: users/models.py:80
+msgid "Business name"
+msgstr "Işewürlik ady"
+
+#: users/models.py:81
+msgid "Business type"
+msgstr "Işewürlik görnüşi"
+
+#: users/models.py:82
+msgid "Custom business type"
+msgstr "Öz işewürlik görnüşi"
+
+#: users/models.py:84
+msgid "Is phone verified"
+msgstr "Telefon tassyklanmy"
+
+#: users/models.py:85
+msgid "Is agreement accepted"
+msgstr "Ylalaşyk kabul edilenmi"
+
+#: users/models.py:89 users/models.py:130 users/models.py:146
+msgid "Address line 1"
+msgstr "Salgy haty 1"
+
+#: users/models.py:90 users/models.py:131 users/models.py:147
+msgid "Address line 2"
+msgstr "Salgy haty 2"
+
+#: users/models.py:96
+msgid "Available balance"
+msgstr "Elýeterli balans"
+
+#: users/models.py:97
+msgid "On hold balance"
+msgstr "Saklanýan balans"
+
+#: users/models.py:118
+msgid "Sellers"
+msgstr "Satyjylar"
+
+#: users/models.py:125
+msgid "Citizenship"
+msgstr "Raýatlyk"
+
+#: users/models.py:126
+msgid "Birth country"
+msgstr "Doglan ýurt"
+
+#: users/models.py:127
+msgid "Birth date"
+msgstr "Doglan senesi"
+
+#: users/models.py:128
+msgid "Residential country"
+msgstr "Ýaşaýan ýurt"
+
+#: users/models.py:129
+msgid "Contact person role"
+msgstr "Habarlaşma adamyň roly"
+
+#: users/models.py:140
+msgid "Contact person"
+msgstr "Habarlaşma adamy"
+
+#: users/models.py:141
+msgid "Contact people"
+msgstr "Habarlaşma adamlary"
+
+#: users/models.py:155
+msgid "Addresses"
+msgstr "Adreslar"
+
+#: users/models.py:162
+msgid "Document type"
+msgstr "Resminama görnüşi"
+
+#: users/models.py:163 users/models.py:167
+msgid "Document"
+msgstr "Resminama"
+
+#: users/models.py:164
+msgid "Upload date"
+msgstr "Ýükleme senesi"
+
+#: users/models.py:168
+msgid "Documents"
+msgstr "Resminamalar"
+
+#: users/models.py:173
+msgid "Square id"
+msgstr "Square ID"
+
+#: users/models.py:174 users/models.py:246
+msgid "Bin number"
+msgstr "Bin belgisi"
+
+#: users/models.py:177 users/models.py:249
+msgid "Cardholder name"
+msgstr "Kartoçka eýesiň ady"
+
+#: users/models.py:178 users/models.py:250
+msgid "Last 4 digits"
+msgstr "Soňky 4 san"
+
+#: users/models.py:181
+msgid "Card"
+msgstr "Kartoçka"
+
+#: users/models.py:182
+msgid "Cards"
+msgstr "Kartoçkalar"
+
+#: users/models.py:201 users/models.py:221
+msgid "Transaction type"
+msgstr "Tranzaksiýa görnüşi"
+
+#: users/models.py:203 users/models.py:220 users/models.py:242
+msgid "Timestamp"
+msgstr "Wagt möhüri"
+
+#: users/models.py:204 users/models.py:245
+msgid "Reference ID"
+msgstr "Salgylanma ID"
+
+#: users/models.py:206
+msgid "Closing balance"
+msgstr "Gutarnykly balans"
+
+#: users/models.py:207
+msgid "Variation"
+msgstr "Waryasyýa"
+
+#: users/models.py:213
+msgid "Seller transaction"
+msgstr "Satyjy tranzaksiýasy"
+
+#: users/models.py:214
+msgid "Seller transactions"
+msgstr "Satyjy tranzaksiýalary"
+
+#: users/models.py:218
+msgid "Order ID"
+msgstr "Sargyt ID"
+
+#: users/models.py:219 users/models.py:241
+msgid "Amount ($)"
+msgstr "Mukdar ($)"
+
+#: users/models.py:222
+msgid "Courier ID"
+msgstr "Kuryer ID"
+
+#: users/models.py:230
+msgid "Shipping transaction"
+msgstr "Shipping tranzaksiýasy"
+
+#: users/models.py:231
+msgid "Shipping transactions"
+msgstr "Shipping tranzaksiýalary"
+
+#: users/models.py:235
+#, fuzzy
+#| msgid "Processing..."
+msgid "Processing"
+msgstr "Işlenilýär..."
+
+#: users/models.py:243
+msgid "Fee amount ($)"
+msgstr "Töleg mukdary ($)"
+
+#: users/models.py:252
+msgid "State of process"
+msgstr "Prosesyn ýagdaýy"
+
+#: users/models.py:255
+msgid "Withdraw request"
+msgstr "Çykaryş zaprosy"
+
+#: users/models.py:256
+msgid "Withdraw requests"
+msgstr "Çykaryş zaproslar"
+
+#~ msgid "Welcome,"
+#~ msgstr "Hoş geldiňiz,"
+
+#~ msgid "View site"
+#~ msgstr "Sayty gormek"
+
+#~ msgid "Delete selected %(verbose_name_plural)s"
+#~ msgstr "%(verbose_name_plural)s saýlanany poz"
+
+#~ msgid "Successfully deleted %(count)d %(items)s."
+#~ msgstr "%(count)d%(items)süstünlikli pozuldy."
+
+#~ msgid "Cannot delete %(name)s"
+#~ msgstr "Pozmak amala aşyrylyp bilinmedi %(name)s"
+
+#~ msgid "Are you sure?"
+#~ msgstr "Siz dowam etmekçimi?"
+
+#~ msgid "All"
+#~ msgstr "Ählisi"
+
+#~ msgid "Yes"
+#~ msgstr "Hawa"
+
+#~ msgid "No"
+#~ msgstr "Ýok"
+
+#~ msgid "Unknown"
+#~ msgstr "Nätanyş"
+
+#~ msgid "Any date"
+#~ msgstr "Islendik sene"
+
+#~ msgid "Today"
+#~ msgstr "Şu gün"
+
+#~ msgid "Past 7 days"
+#~ msgstr "Soňky 7 gün"
+
+#~ msgid "This month"
+#~ msgstr "Şul aý"
+
+#~ msgid "This year"
+#~ msgstr "Şul ýyl"
+
+#~ msgid "No date"
+#~ msgstr "Senesiz"
+
+#~ msgid "Has date"
+#~ msgstr "Seneli"
+
+#~ msgid "Empty"
+#~ msgstr "Boş"
+
+#~ msgid "Not empty"
+#~ msgstr "Boş däl"
+
+#~ msgid ""
+#~ "Please enter the correct %(username)s and password for a staff account. "
+#~ "Note that both fields may be case-sensitive."
+#~ msgstr ""
+#~ "Administratiw bolmadyk hasap üçin dogry %(username)swe parol ulanmagyňyzy "
+#~ "sizden haýyş edýäris. Giriziljek maglumatlaryň harp ýalňyşsyz bolmagyny "
+#~ "göz öňünde tutmagy unutmaň."
+
+#~ msgid "Action:"
+#~ msgstr "Hereket:"
+
+#~ msgid "Add another %(verbose_name)s"
+#~ msgstr "Başga %(verbose_name)s goş"
+
+#~ msgid "Remove"
+#~ msgstr "Aýyr"
+
+#~ msgid "Addition"
+#~ msgstr "Goşmaça"
+
+#~ msgid "Change"
+#~ msgstr "Üýtget"
+
+#~ msgid "Deletion"
+#~ msgstr "Pozmaklyk"
+
+#~ msgid "action time"
+#~ msgstr "hereket wagty"
+
+#~ msgid "user"
+#~ msgstr "ulanyjy"
+
+#~ msgid "content type"
+#~ msgstr "maglumat görnüşi"
+
+#~ msgid "object id"
+#~ msgstr "obýekt id'sy"
+
+#~ msgid "object repr"
+#~ msgstr "obýekt repr'y"
+
+#~ msgid "action flag"
+#~ msgstr "hereket baýdaklandyryşy"
+
+#~ msgid "change message"
+#~ msgstr "Habarnamany üýtget"
+
+#~ msgid "log entry"
+#~ msgstr "Giriş habarnamasy"
+
+#~ msgid "log entries"
+#~ msgstr "giriş habarnamalary"
+
+#~ msgid "Added “%(object)s”."
+#~ msgstr "\"%(object)s\" goşuldy"
+
+#~ msgid "Changed “%(object)s” — %(changes)s"
+#~ msgstr "\"%(object)s\" üýtgedildi - %(changes)s"
+
+#~ msgid "Deleted “%(object)s.”"
+#~ msgstr "\"%(object)s\" pozuldy."
+
+#~ msgid "LogEntry Object"
+#~ msgstr "GirişHabarnamasy Obýekty"
+
+#~ msgid "Added {name} “{object}”."
+#~ msgstr "Goşuldy {name} \"{object}\"."
+
+#~ msgid "Added."
+#~ msgstr "Goşuldy."
+
+#~ msgid "and"
+#~ msgstr "we"
+
+#~ msgid "Changed {fields} for {name} “{object}”."
+#~ msgstr "{fields} üýtgedildi {name} üçin “{object}”."
+
+#~ msgid "Changed {fields}."
+#~ msgstr "{fields} üýtgedildi."
+
+#~ msgid "Deleted {name} “{object}”."
+#~ msgstr "{name} pozuldy “{object}”."
+
+#~ msgid "No fields changed."
+#~ msgstr "Üýtgeýän meýdanlar ýok."
+
+#~ msgid "None"
+#~ msgstr "Hiç zat ýok"
+
+#~ msgid "Hold down “Control”, or “Command” on a Mac, to select more than one."
+#~ msgstr ""
+#~ "Birnäçe zady saýlamak üçin, “Control” düwmesini basyp saklaň, ýa-da Mac-"
+#~ "de “Command” düwmesini."
+
+#~ msgid "The {name} “{obj}” was added successfully."
+#~ msgstr "{name} “{obj}” üstünlikli goşuldy."
+
+#~ msgid "You may edit it again below."
+#~ msgstr "Oňa aşakdaky ýaly gaýtadan düzedip bilersiňiz."
+
+#~ msgid ""
+#~ "The {name} “{obj}” was added successfully. You may add another {name} "
+#~ "below."
+#~ msgstr ""
+#~ "{name} “{obj}” üstünlikli goşuldy. Aşakda başga bir {name} goşup "
+#~ "bilersiňiz."
+
+#~ msgid ""
+#~ "The {name} “{obj}” was changed successfully. You may edit it again below."
+#~ msgstr ""
+#~ "{name} “{obj}” üstünlikli üýtgedildi. Aşakda ony gaýtadan düzedip "
+#~ "bilersiňiz."
+
+#~ msgid ""
+#~ "The {name} “{obj}” was added successfully. You may edit it again below."
+#~ msgstr ""
+#~ "{name} “{obj}” üstünlikli goşuldy. Aşakda ony gaýtadan düzedip bilersiňiz."
+
+#~ msgid ""
+#~ "The {name} “{obj}” was changed successfully. You may add another {name} "
+#~ "below."
+#~ msgstr ""
+#~ "{name} “{obj}” üstünlikli üýtgedildi. Aşakda başga bir {name} goşup "
+#~ "bilersiňiz."
+
+#~ msgid "The {name} “{obj}” was changed successfully."
+#~ msgstr "{name} “{obj}” üstünlikli üýtgedildi."
+
+#~ msgid ""
+#~ "Items must be selected in order to perform actions on them. No items have "
+#~ "been changed."
+#~ msgstr ""
+#~ "Zatlaryň üstünde hereket etmek üçin olar saýlanmaly. Hiç bir zat "
+#~ "üýtgedilmedi."
+
+#~ msgid "No action selected."
+#~ msgstr "Hiç bir hereket saýlanmady."
+
+#~ msgid "The %(name)s “%(obj)s” was deleted successfully."
+#~ msgstr "%(name)s “%(obj)s” üstünlikli pozuldy."
+
+#~ msgid "%(name)s with ID “%(key)s” doesn’t exist. Perhaps it was deleted?"
+#~ msgstr "ID-si “%(key)s” bolan %(name)s ýok. Belki pozuldy?"
+
+#~ msgid "Add %s"
+#~ msgstr "%s goş"
+
+#~ msgid "Change %s"
+#~ msgstr "%s üýtget"
+
+#~ msgid "View %s"
+#~ msgstr "%s gör"
+
+#~ msgid "Database error"
+#~ msgstr "Maglumatlar bazasy ýalňyşlygy"
+
+#~ msgid "%(count)s %(name)s was changed successfully."
+#~ msgid_plural "%(count)s %(name)s were changed successfully."
+#~ msgstr[0] "%(count)s %(name)s üstünlikli üýtgedildi."
+#~ msgstr[1] "%(count)s %(name)s üstünlikli üýtgedildi."
+
+#~ msgid "%(total_count)s selected"
+#~ msgid_plural "All %(total_count)s selected"
+#~ msgstr[0] "%(total_count)s saýlanan"
+#~ msgstr[1] "Ähli %(total_count)s saýlanan"
+
+#~ msgid "0 of %(cnt)s selected"
+#~ msgstr "%(cnt)s-den 0 saýlanan"
+
+#~ msgid "Change history: %s"
+#~ msgstr "Üýtgeşme taryhy: %s"
+
+#~ msgid "%(class_name)s %(instance)s"
+#~ msgstr "%(class_name)s %(instance)s"
+
+#~ msgid ""
+#~ "Deleting %(class_name)s %(instance)s would require deleting the following "
+#~ "protected related objects: %(related_objects)s"
+#~ msgstr ""
+#~ "%(class_name)s %(instance)s-i pozmak üçin aşakdaky goragly bagly "
+#~ "obýektleri pozmak gerek: %(related_objects)s"
+
+#~ msgid "Django site admin"
+#~ msgstr "Django saýt dolandyryşy"
+
+#~ msgid "Django administration"
+#~ msgstr "Django dolandyryşy"
+
+#~ msgid "Site administration"
+#~ msgstr "Saýt dolandyryşy"
+
+#~ msgid "Log in"
+#~ msgstr "Içeri giriň"
+
+#~ msgid "%(app)s administration"
+#~ msgstr "%(app)s dolandyryşy"
+
+#~ msgid "Page not found"
+#~ msgstr "Sahypa tapylmady"
+
+#~ msgid "We’re sorry, but the requested page could not be found."
+#~ msgstr "Gynansak-da, islenen sahypa tapylmady."
+
+#~ msgid "Home"
+#~ msgstr "Baş sahypa"
+
+#~ msgid "Server error"
+#~ msgstr "Serwer ýalňyşlygy"
+
+#~ msgid "Server error (500)"
+#~ msgstr "Serwer ýalňyşlygy (500)"
+
+#~ msgid "Server Error <em>(500)</em>"
+#~ msgstr "Serwer Ýalňyşlygy <em>(500)</em>"
+
+#~ msgid ""
+#~ "There’s been an error. It’s been reported to the site administrators via "
+#~ "email and should be fixed shortly. Thanks for your patience."
+#~ msgstr ""
+#~ "Bir ýalňyşlyk boldy. Bu e-poçta arkaly saýt dolandyryjylaryna habar "
+#~ "berildi we gysga wagtda düzedilmeli. Sabyryňyz üçin sag boluň."
+
+#~ msgid "Run the selected action"
+#~ msgstr "Saýlanan hereketi ýerine ýetiriň"
+
+#~ msgid "Go"
+#~ msgstr "Git"
+
+#~ msgid "Click here to select the objects across all pages"
+#~ msgstr "Ähli sahypalardaky obýektleri saýlamak üçin şu ýere basyň"
+
+#~ msgid "Select all %(total_count)s %(module_name)s"
+#~ msgstr "Ähli %(total_count)s %(module_name)s saýla"
+
+#~ msgid "Clear selection"
+#~ msgstr "Saýlamany arassala"
+
+#~ msgid "Models in the %(name)s application"
+#~ msgstr "%(name)s programmasynyň modelleri"
+
+#~ msgid "Add"
+#~ msgstr "Goş"
+
+#~ msgid "View"
+#~ msgstr "Gör"
+
+#~ msgid "You don’t have permission to view or edit anything."
+#~ msgstr "Hiç bir zady görüp ýa-da üýtgedip bilmejek rugsadyňyz ýok."
+
+#~ msgid ""
+#~ "First, enter a username and password. Then, you’ll be able to edit more "
+#~ "user options."
+#~ msgstr ""
+#~ "Ilki bilen, ulanyjy ady we açar sözi ýazyň. Soňra, has köp ulanyjy "
+#~ "opsiýalaryny üýtgedip bilersiňiz."
+
+#~ msgid "Enter a username and password."
+#~ msgstr "Ulanyjy ady we açar sözi ýazyň."
+
+#~ msgid "Change password"
+#~ msgstr "Açar sözi üýtget"
+
+#~ msgid "Please correct the error below."
+#~ msgid_plural "Please correct the errors below."
+#~ msgstr[0] "Aşakdaky ýalňyşlygy düzediň."
+#~ msgstr[1] "Aşakdaky ýalňyşlyklary düzediň."
+
+#~ msgid "Enter a new password for the user <strong>%(username)s</strong>."
+#~ msgstr "Ulanyjy <strong>%(username)s</strong> üçin täze açar sözi ýazyň."
+
+#~ msgid "Skip to main content"
+#~ msgstr "Esasy mazmuna geçiň"
+
+#~ msgid "Documentation"
+#~ msgstr "Dokumentasiýa"
+
+#~ msgid "Log out"
+#~ msgstr "Çyk"
+
+#~ msgid "Breadcrumbs"
+#~ msgstr "Kategoriýalar"
+
+#~ msgid "Add %(name)s"
+#~ msgstr "%(name)s goş"
+
+#~ msgid "History"
+#~ msgstr "Taryh"
+
+#~ msgid "View on site"
+#~ msgstr "Saýtda gör"
+
+#~ msgid "Filter"
+#~ msgstr "Süzgüç"
+
+#~ msgid "Clear all filters"
+#~ msgstr "Ähli süzgüçleri arassala"
+
+#~ msgid "Remove from sorting"
+#~ msgstr "Sortlamadan aýyr"
+
+#~ msgid "Sorting priority: %(priority_number)s"
+#~ msgstr "Sortlamak üçin ileri: %(priority_number)s"
+
+#~ msgid "Toggle sorting"
+#~ msgstr "Sortlamany çalyş"
+
+#~ msgid "Toggle theme (current theme: auto)"
+#~ msgstr "Temany çalyş (häzirki tema: awtomatik)"
+
+#~ msgid "Toggle theme (current theme: light)"
+#~ msgstr "Temany çalyş (häzirki tema: ýagty)"
+
+#~ msgid "Toggle theme (current theme: dark)"
+#~ msgstr "Temany çalyş (häzirki tema: garaňky)"
+
+#~ msgid "Delete"
+#~ msgstr "Poz"
+
+#~ msgid ""
+#~ "Deleting the %(object_name)s '%(escaped_object)s' would result in "
+#~ "deleting related objects, but your account doesn't have permission to "
+#~ "delete the following types of objects:"
+#~ msgstr ""
+#~ "%(object_name)s '%(escaped_object)s' pozulsa, bagly obýektler hem "
+#~ "pozular, ýöne hasabyňyz aşakdaky görnüşli obýektleri pozmaga rugsat "
+#~ "bermeýär:"
+
+#~ msgid ""
+#~ "Deleting the %(object_name)s '%(escaped_object)s' would require deleting "
+#~ "the following protected related objects:"
+#~ msgstr ""
+#~ "%(object_name)s '%(escaped_object)s' pozulsa, aşakdaky goragly bagly "
+#~ "obýektler hem pozulmaly bolar:"
+
+#~ msgid ""
+#~ "Are you sure you want to delete the %(object_name)s \"%(escaped_object)s"
+#~ "\"? All of the following related items will be deleted:"
+#~ msgstr ""
+#~ "%(object_name)s \"%(escaped_object)s\" pozjakdygyňyza ynanýarsyňyzmy? "
+#~ "Aşakdaky ähli bagly zatlar pozular:"
+
+#~ msgid "Objects"
+#~ msgstr "Obýektler"
+
+#~ msgid "Yes, I’m sure"
+#~ msgstr "Hawa, men ygtybarly"
+
+#~ msgid "No, take me back"
+#~ msgstr "Ýok, yzyna al"
+
+#~ msgid "Delete multiple objects"
+#~ msgstr "Köp obýektleri poz"
+
+#~ msgid ""
+#~ "Deleting the selected %(objects_name)s would result in deleting related "
+#~ "objects, but your account doesn't have permission to delete the following "
+#~ "types of objects:"
+#~ msgstr ""
+#~ "Saýlanan %(objects_name)s pozulsa, bagly obýektler hem pozular, ýöne "
+#~ "hasabyňyz aşakdaky görnüşli obýektleri pozmaga rugsat bermeýär:"
+
+#~ msgid ""
+#~ "Deleting the selected %(objects_name)s would require deleting the "
+#~ "following protected related objects:"
+#~ msgstr ""
+#~ "Saýlanan %(objects_name)s pozulsa, aşakdaky goragly bagly obýektler hem "
+#~ "pozulmaly bolar:"
+
+#~ msgid ""
+#~ "Are you sure you want to delete the selected %(objects_name)s? All of the "
+#~ "following objects and their related items will be deleted:"
+#~ msgstr ""
+#~ "Saýlanan %(objects_name)s pozjakdygyňyza ynanýarsyňyzmy? Aşakdaky ähli "
+#~ "obýektler we olaryň bagly zatlary pozular:"
+
+#~ msgid "Delete?"
+#~ msgstr "Poz?"
+
+#~ msgid " By %(filter_title)s "
+#~ msgstr "%(filter_title)s boýunça"
+
+#~ msgid "Summary"
+#~ msgstr "Gysgaça"
+
+#~ msgid "Recent actions"
+#~ msgstr "Soňky hereketler"
+
+#~ msgid "My actions"
+#~ msgstr "Meniň hereketlerim"
+
+#~ msgid "None available"
+#~ msgstr "Elýeterli däl"
+
+#~ msgid "Unknown content"
+#~ msgstr "Näbelli mazmun"
+
+#~ msgid ""
+#~ "Something’s wrong with your database installation. Make sure the "
+#~ "appropriate database tables have been created, and make sure the database "
+#~ "is readable by the appropriate user."
+#~ msgstr ""
+#~ "Maglumatlar bazasyňyzyň gurnalyşynda bir zat ýalňyş. Degişli maglumatlar "
+#~ "bazasynyň tablisalarynyň döredilendigine we maglumatlar bazasynyň degişli "
+#~ "ulanyjy tarapyndan okalýandygyna göz ýetiriň."
+
+#~ msgid ""
+#~ "You are authenticated as %(username)s, but are not authorized to access "
+#~ "this page. Would you like to login to a different account?"
+#~ msgstr ""
+#~ "Siz %(username)s hökmünde tassyklanyldyňyz, ýöne bu sahypa girmäge "
+#~ "ygtyýaryňyz ýok. Başga bir hasaba girmek isleýärsiňizmi?"
+
+#~ msgid "Forgotten your password or username?"
+#~ msgstr "Açar söziňizi ýa-da ulanyjy adyňyzy unutdyňyzmy?"
+
+#~ msgid "Toggle navigation"
+#~ msgstr "Nawigasiýany çalyş"
+
+#~ msgid "Sidebar"
+#~ msgstr "Gapdal panel"
+
+#~ msgid "Start typing to filter…"
+#~ msgstr "Süzgüçlemek üçin ýazmaga başlaň…"
+
+#~ msgid "Filter navigation items"
+#~ msgstr "Nawigasiýa elementlerini süzgüçle"
+
+#~ msgid "Date/time"
+#~ msgstr "Sene/wagt"
+
+#~ msgid "Action"
+#~ msgstr "Hereket"
+
+#~ msgid "entry"
+#~ msgid_plural "entries"
+#~ msgstr[0] "giriş"
+#~ msgstr[1] "girişler"
+
+#~ msgid ""
+#~ "This object doesn’t have a change history. It probably wasn’t added via "
+#~ "this admin site."
+#~ msgstr ""
+#~ "Bu obýektde üýtgeşme taryhy ýok. Balky, ol bu dolandyryş saýty arkaly "
+#~ "goşulmady."
+
+#~ msgid "Show all"
+#~ msgstr "Ählisini görkez"
+
+#~ msgid "Save"
+#~ msgstr "Sakla"
+
+#~ msgid "Popup closing…"
+#~ msgstr "Popup ýapylýar…"
+
+#~ msgid "Search"
+#~ msgstr "Gözleg"
+
+#~ msgid "%(counter)s result"
+#~ msgid_plural "%(counter)s results"
+#~ msgstr[0] "%(counter)s netije"
+#~ msgstr[1] "%(counter)s netijeler"
+
+#~ msgid "%(full_result_count)s total"
+#~ msgstr "%(full_result_count)s jemi"
+
+#~ msgid "Save as new"
+#~ msgstr "Täze hökmünde sakla"
+
+#~ msgid "Save and add another"
+#~ msgstr "Ýene birini goş we sakla"
+
+#~ msgid "Save and continue editing"
+#~ msgstr "Üýtget we dowam et sakla"
+
+#~ msgid "Save and view"
+#~ msgstr "Gör we sakla"
+
+#~ msgid "Close"
+#~ msgstr "Ýap"
+
+#~ msgid "Change selected %(model)s"
+#~ msgstr "Saýlanan %(model)s üýtget"
+
+#~ msgid "Add another %(model)s"
+#~ msgstr "Ýene bir %(model)s goş"
+
+#~ msgid "Delete selected %(model)s"
+#~ msgstr "Saýlanan %(model)s poz"
+
+#~ msgid "View selected %(model)s"
+#~ msgstr "Saýlanan %(model)s gör"
+
+#~ msgid "Thanks for spending some quality time with the web site today."
+#~ msgstr "Saýt bilen ýakyn wagtda wagt geçireniňiz üçin sag boluň."
+
+#~ msgid "Log in again"
+#~ msgstr "Ýene giriň"
+
+#~ msgid "Password change"
+#~ msgstr "Açar sözi üýtgetme"
+
+#~ msgid "Your password was changed."
+#~ msgstr "Açar söziňiz üýtgedildi."
+
+#~ msgid ""
+#~ "Please enter your old password, for security’s sake, and then enter your "
+#~ "new password twice so we can verify you typed it in correctly."
+#~ msgstr ""
+#~ "Howpsuzlyk üçin ilki bilen öňki açar söziňizi ýazyň, soňra täze açar "
+#~ "söziňizi iki gezek ýazyň, şeýlelik bilen ony dogry ýazandygyňyzy barlap "
+#~ "bilersiňiz."
+
+#~ msgid "Change my password"
+#~ msgstr "Meniň açar sözümi üýtget"
+
+#~ msgid "Password reset"
+#~ msgstr "Açar sözi täzeden düzmek"
+
+#~ msgid "Your password has been set.  You may go ahead and log in now."
+#~ msgstr "Açar söziňiz düzüldi. Indi giriş edip bilersiňiz."
+
+#~ msgid "Password reset confirmation"
+#~ msgstr "Açar sözi täzeden düzmegi tassyklamak"
+
+#~ msgid ""
+#~ "Please enter your new password twice so we can verify you typed it in "
+#~ "correctly."
+#~ msgstr ""
+#~ "Täze açar söziňizi iki gezek ýazyň, şeýlelik bilen ony dogry "
+#~ "ýazandygyňyzy barlap bilersiňiz."
+
+#~ msgid "New password:"
+#~ msgstr "Täze açar söz:"
+
+#~ msgid "Confirm password:"
+#~ msgstr "Açar sözi tassykla:"
+
+#~ msgid ""
+#~ "The password reset link was invalid, possibly because it has already been "
+#~ "used.  Please request a new password reset."
+#~ msgstr ""
+#~ "Açar sözi täzeden düzmek baglanyşygy nädogrydy, belki ol eýýäm "
+#~ "ulanylandyr. Täze açar sözi täzeden düzmegi sorap bilersiňiz."
+
+#~ msgid ""
+#~ "We’ve emailed you instructions for setting your password, if an account "
+#~ "exists with the email you entered. You should receive them shortly."
+#~ msgstr ""
+#~ "Eger girizen e-poçtaňyz bilen hasap bar bolsa, açar söziňizi düzmek üçin "
+#~ "görkezmeleri e-poçta arkaly iberdik. Olary gysga wagtda almaly."
+
+#~ msgid ""
+#~ "If you don’t receive an email, please make sure you’ve entered the "
+#~ "address you registered with, and check your spam folder."
+#~ msgstr ""
+#~ "E-poçta almasaňyz, hasaba alnan salgyňyzy dogry girizendigiňize we spam "
+#~ "bukjany barlandygyňyza göz ýetiriň."
+
+#~ msgid ""
+#~ "You're receiving this email because you requested a password reset for "
+#~ "your user account at %(site_name)s."
+#~ msgstr ""
+#~ "Bu e-poçtaňyzy %(site_name)s-däki ulanyjy hasabyňyz üçin açar sözi "
+#~ "täzeden düzmegi sorandygyňyz üçin alýarsyňyz."
+
+#~ msgid "Please go to the following page and choose a new password:"
+#~ msgstr "Täze açar söz saýlamak üçin aşakdaky sahypa baryň:"
+
+#~ msgid "Your username, in case you’ve forgotten:"
+#~ msgstr "Ulanyjy adyňyz, ýatdan çykan ýagdaýynda:"
+
+#~ msgid "Thanks for using our site!"
+#~ msgstr "Saýtymyzdan peýdalananyňyz üçin sag boluň!"
+
+#~ msgid "The %(site_name)s team"
+#~ msgstr "%(site_name)s topary"
+
+#~ msgid ""
+#~ "Forgotten your password? Enter your email address below, and we’ll email "
+#~ "instructions for setting a new one."
+#~ msgstr ""
+#~ "Açar söziňizi unutdyňyzmy? Aşakdaky e-poçta salgyňyzy ýazyň we täze açar "
+#~ "sözi düzmek üçin görkezmeleri e-poçta arkaly ibereris."
+
+#~ msgid "Email address:"
+#~ msgstr "E-poçta salgysy:"
+
+#~ msgid "Reset my password"
+#~ msgstr "Meniň açar sözümi täzeden düz"
+
+#~ msgid "All dates"
+#~ msgstr "Ähli seneler"
+
+#~ msgid "Select %s"
+#~ msgstr "%s saýla"
+
+#~ msgid "Select %s to change"
+#~ msgstr "%s üýtgetmek üçin saýla"
+
+#~ msgid "Select %s to view"
+#~ msgstr "%s görmek üçin saýla"
+
+#~ msgid "Date:"
+#~ msgstr "Sene:"
+
+#~ msgid "Time:"
+#~ msgstr "Wagty:"
+
+#~ msgid "Lookup"
+#~ msgstr "Gözleg"
+
+#~ msgid "Currently:"
+#~ msgstr "Häzirki:"
+
+#~ msgid "Change:"
+#~ msgstr "Üýtget:"
